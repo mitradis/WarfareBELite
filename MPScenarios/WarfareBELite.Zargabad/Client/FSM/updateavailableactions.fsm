@@ -1,0 +1,255 @@
+/*%FSM<COMPILE "E:\Bohemia Interactive\ArmA 2\FSM Editor Personal Edition\scriptedFSM.cfg, updateavailableactions">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Init",0,250,64.986191,-133.045959,154.986206,-83.046036,0.000000,"Init"};
+item1[] = {"Update_Client_Ac",2,4346,-66.836029,-56.267544,23.163887,-6.267582,0.000000,"Update Client" \n "Actions"};
+item2[] = {"End",1,250,-207.023727,26.287281,-117.023697,76.287277,0.000000,"End"};
+item3[] = {"Loop",4,218,65.605347,-56.267605,155.605377,-6.267574,0.000000,"Loop"};
+item4[] = {"Gameover",4,218,-64.280334,28.850353,25.719648,78.850410,0.000000,"Gameover"};
+link0[] = {0,3};
+link1[] = {1,3};
+link2[] = {1,4};
+link3[] = {3,1};
+link4[] = {4,2};
+globals[] = {0.000000,0,0,0,0,640,480,1,38,6316128,1,-272.454102,145.252441,210.485764,-232.451401,596,632,1};
+window[] = {0,-1,-1,-1,-1,927,150,1410,150,1,614};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "updateavailableactions";
+  class States
+  {
+    /*%FSM<STATE "Init">*/
+    class Init
+    {
+      name = "Init";
+      init = /*%FSM<STATEINIT""">*/"_lastUpdate = time;" \n
+       "_txt = '';" \n
+       "_handle = nil;" \n
+       "_ft = 'WFBE_FASTTRAVEL' Call GetNamespace;" \n
+       "_ftr = 'WFBE_FASTTRAVELRANGE' Call GetNamespace;" \n
+       "_mhqbr = 'WFBE_MHQBUILDINGRANGE' Call GetNamespace;" \n
+       "_pur = 'WFBE_PURCHASEUNITSRANGE' Call GetNamespace;" \n
+       "_pura = 'WFBE_PURCHASEUNITSRANGEAIR' Call GetNamespace;" \n
+       "_ccr = 'WFBE_COMMANDCENTERRANGE' Call GetNamespace;" \n
+       "_pgr = 'WFBE_PURCHASEGEARRANGE' Call GetNamespace;" \n
+       "_rptr = 'WFBE_REPAIRTRUCKRANGE' Call GetNamespace;" \n
+       "_spr = 'WFBE_SERVICEPOINTRANGE' Call GetNamespace;" \n
+       "_tpr = 'WFBE_TOWNBUILDPROTECTIONRANGE' Call GetNamespace;" \n
+       "_is = 'WFBE_INCOMESYSTEM' Call GetNamespace;" \n
+       "_ac = 'WFBE_ARTILLERYCOMPUTER' Call GetNamespace;" \n
+       "_buygearfrom = missionNamespace getVariable ""WFBE_TOWNGEAR"";" \n
+       "_gear_field_range = missionNamespace getVariable ""WFBE_PURCHASEGEARFIELDRANGE"";" \n
+       "_acenabled = false;" \n
+       "" \n
+       "_fastTravel = false;" \n
+       "" \n
+       "_commandCenter = objNull;" \n
+       "" \n
+       "_typeRepair = Format['WFBE_%1REPAIRTRUCKS',sideJoinedText] Call GetNamespace;" \n
+       "" \n
+       "//--- Keep actions updated (GUI)" \n
+       "12450 cutRsc [""OptionsAvailable"",""PLAIN"",0];" \n
+       "_icons = [" \n
+       """Client\Images\icon_wf_building_mhq.paa"",       //mhq deployable" \n
+       """Client\Images\icon_wf_building_barracks.paa"",  //barracks " \n
+       """Client\Images\icon_wf_building_gear.paa"",      //gear avail" \n
+       """Client\Images\icon_wf_building_lvs.paa"",       //lvsp" \n
+       """Client\Images\icon_wf_building_hvs.paa"",       //hvsp" \n
+       """Client\Images\icon_wf_building_air.paa"",       //helipad" \n
+       """Client\Images\icon_wf_building_hangar.paa"",    //hangar" \n
+       """Client\Images\icon_wf_building_repair.paa"",    //rearm | repair | refuel" \n
+       """Client\Images\icon_wf_building_firstaid.paa"",  //heal " \n
+       """Client\Images\icon_wf_support_fasttravel.paa"", //fast travel" \n
+       """Client\Images\icon_wf_building_cc.paa"",        //command center" \n
+       """Client\Images\icon_wf_building_aa_radar.paa"",  //AA radar" \n
+       """Client\Images\icon_wf_building_am_radar.paa"",  //ARTY radar" \n
+       """Client\Images\icon_wf_support_transport.paa"",  //transport" \n
+       """Client\Images\icon_wf_support_supplydrop.paa"", //supply drop" \n
+       """Client\Images\icon_wf_support_artilery.paa"",   //ARTY" \n
+       """Client\Images\icon_wf_support_mortar.paa"",     //ARTY - mortar" \n
+       """Client\Images\icon_wf_support_cas.paa"",        //CAS" \n
+       """Client\Images\icon_wf_support_uav.paa""         //UAV" \n
+       "];" \n
+       "" \n
+       "_buildings = (sideJoinedText) Call GetSideStructures;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Loop">*/
+        class Loop
+        {
+          priority = 0.000000;
+          to="Update_Client_Ac";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"(time - _lastUpdate > 5 || WFBE_ForceUpdate) && !gameOver"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Update_Client_Ac">*/
+    class Update_Client_Ac
+    {
+      name = "Update_Client_Ac";
+      init = /*%FSM<STATEINIT""">*/"_buildings = (sideJoinedText) Call GetSideStructures;" \n
+       "_base = (sideJoinedText) Call GetSideHQ;" \n
+       "_upgrades = (sideJoinedText) Call GetSideUpgrades;" \n
+       "	" \n
+       "_purchaseRange = if (commandInRange) then {_ccr} else {_pur};" \n
+       "	" \n
+       "_closest = [vehicle player, towns] Call GetClosestEntity;" \n
+       "" \n
+       "if (!isNull(commanderTeam) && paramHighCommand) then {" \n
+       "	if (commanderTeam == group player) then {" \n
+       "		{if !(isNil '_x') then {if !(_x in (hcAllGroups player)) then {player HCSetGroup [_x]}}} forEach clientTeams;" \n
+       "	};" \n
+       "};" \n
+       "" \n
+       "//--- Boundaries are limited ?" \n
+       "if (paramBoundaries) then {" \n
+       "	_isOnMap = Call BoundariesIsOnMap;" \n
+       "	if !(_isOnMap && alive player) then {" \n
+       "		if !(paramBoundariesRunning) then {_handle = [] Spawn BoundariesHandleOnMap};" \n
+       "	} else {" \n
+       "		if !(isNil '_handle') then {terminate _handle;_handle = nil};" \n
+       "		paramBoundariesRunning = false;" \n
+       "	};" \n
+       "};" \n
+       "" \n
+       "//--- Map info." \n
+       "if (visibleMap) then {" \n
+       "	if (!isNull commanderTeam) then {_txt = format [localize 'STR_WF_Commander',name (leader commanderTeam)]} else {_txt = format [localize 'STR_WF_Commander',localize 'STR_WF_AI']};" \n
+       "	_txt = _txt + '  ' + Format [localize ""STR_WF_Income"",Call GetPlayerFunds,(sideJoined) Call GetIncome];" \n
+       "	if (_is in [3,4]) then {_txt = _txt + Format["" (%1%2)"", Call Compile Format[""%1CommanderPercent"",sideJoined],""%""]};" \n
+       "	if !(paramMoneyOnly) then {_txt = _txt + '  ' + localize 'STR_WF_UPGRADE_Supply' + ': '+ str((sideJoined) Call GetSideSupply)};" \n
+       "	(findDisplay 12 displayCtrl 116) ctrlSetText _txt;" \n
+       "};" \n
+       "" \n
+       "//--- HQ." \n
+       "if !(isNull _base) then {hqInRange = if ((player distance _base < _mhqbr)&&(alive _base)&&(player distance _closest > _tpr)) then {true} else {false}};" \n
+       "" \n
+       "barracksInRange = if (isNull (['BARRACKSTYPE',_buildings,_purchaseRange,sideJoined,player] Call BuildingInRange)) then {false} else {true};" \n
+       "gearInRange = if (isNull (['BARRACKSTYPE',_buildings,_pgr,sideJoined,player] Call BuildingInRange)) then {false} else {true};" \n
+       "if !(gearInRange) then {" \n
+       "	if (_buygearfrom in [1,2,3]) then {" \n
+       "		_nObject = objNull;" \n
+       "		switch (_buygearfrom) do { " \n
+       "			case 1:{_nObject = [vehicle player, _gear_field_range] Call GetClosestCamp}; " \n
+       "			case 2:{_nObject = [vehicle player, _gear_field_range] Call GetClosestDepot}; " \n
+       "			case 3:{{if !(isNull _x) exitWith {_nObject = _x}} forEach [[vehicle player, _gear_field_range] Call GetClosestCamp, [vehicle player, _gear_field_range] Call GetClosestDepot]}; " \n
+       "		};" \n
+       "		gearInRange = if !(isNull _nObject) then {true} else {false};" \n
+       "	};" \n
+       "};" \n
+       "" \n
+       "lightInRange = if (isNull (['LIGHTTYPE',_buildings,_purchaseRange,sideJoined,player] Call BuildingInRange)) then {false} else {true};" \n
+       "heavyInRange = if (isNull (['HEAVYTYPE',_buildings,_purchaseRange,sideJoined,player] Call BuildingInRange)) then {false} else {true};" \n
+       "aircraftInRange = if (isNull (['AIRCRAFTTYPE',_buildings,_purchaseRange,sideJoined,player] Call BuildingInRange)) then {false} else {true};" \n
+       "serviceInRange = if (isNull (['SERVICEPOINTTYPE',_buildings,_spr,sideJoined,player] Call BuildingInRange)) then {false} else {true};" \n
+       "" \n
+       "if !(serviceInRange) then {" \n
+       "	_checks = (getPos player) nearEntities[_typeRepair,_rptr];" \n
+       "	if (count _checks > 0) then {serviceInRange = true};" \n
+       "};" \n
+       "" \n
+       "if (paramAARadar) then {" \n
+       "	_checks = [sideJoined, Format [""WFBE_%1AARADARTYPE"",sideJoinedText] Call GetNamespace,_buildings] Call GetFactories;" \n
+       "	if (count _checks > 0) then {antiAirRadarInRange = true} else {antiAirRadarInRange = false};" \n
+       "};" \n
+       "" \n
+       "//--- Town Depot." \n
+       "depotInRange = if !(isNull ([vehicle player, 'WFBE_TOWNPURCHASERANGE' Call GetNamespace] Call GetClosestDepot)) then {true} else {false};" \n
+       "if (depotInRange) then {serviceInRange = true};" \n
+       "" \n
+       "_checks = ['COMMANDCENTERTYPE',_buildings,_ccr,sideJoined,player] Call BuildingInRange;" \n
+       "_commandCenter = _checks;" \n
+       "commandInRange = if (isNull _checks) then {false} else {true};" \n
+       "" \n
+       "//--- Airport." \n
+       "if (paramHangars) then {" \n
+       "	hangarInRange = if !(isNull ([vehicle player, _pura] Call GetClosestAirport)) then {true} else {false};" \n
+       "};" \n
+       "" \n
+       "//--- Fast Travel." \n
+       "if ((_ft > 0) && commandInRange) then {" \n
+       "	_fastTravel = false;" \n
+       "	_isDeployed = (sideJoinedText) Call GetSideHQDeployed;" \n
+       "	if (_upgrades select 11 > 0) then {" \n
+       "		if (player distance _base < _ftr && alive _base && _isDeployed) then {_fastTravel = true} else {" \n
+       "			_sideID = _closest getVariable 'sideID';" \n
+       "			if (player distance _closest < _ftr && _sideID == sideID) then {_fastTravel = true} else {" \n
+       "				if (!isNull _commandCenter) then {" \n
+       "					if (player distance _commandCenter < _ftr) then {_fastTravel = true};" \n
+       "				};" \n
+       "			};" \n
+       "		};	" \n
+       "	};	" \n
+       "};" \n
+       "" \n
+       "//--- AC." \n
+       "if (_ac == 1 && !_acenabled && !WF_A2_Vanilla) then {" \n
+       "	if ((_upgrades select 9) == 3) then {Call Compile ""enableEngineArtillery true;"";_acenabled = true};" \n
+       "};" \n
+       "" \n
+       "_usable = [hqInRange,barracksInRange,gearInRange,lightInRange,heavyInRange,aircraftInRange,hangarInRange,serviceInRange,serviceInRange,_fastTravel,commandInRange,antiAirRadarInRange];" \n
+       "" \n
+       "_c = 0;" \n
+       "if (isNull ([""currentCutDisplay""] call BIS_FNC_GUIget)) then {12450 cutRsc[""OptionsAvailable"",""PLAIN"",0]};" \n
+       "{" \n
+       "	if (_x) then {" \n
+       "		(([""currentCutDisplay""] call BIS_FNC_GUIget) DisplayCtrl (3500 + _c)) CtrlSetText (_icons select _c);" \n
+       "	} else {" \n
+       "		(([""currentCutDisplay""] call BIS_FNC_GUIget) DisplayCtrl (3500 + _c)) CtrlSetText """";" \n
+       "	};" \n
+       "	_c = _c + 1;" \n
+       "}forEach _usable;" \n
+       "" \n
+       "if (WFBE_ForceUpdate) then {WFBE_ForceUpdate  = false};" \n
+       "_lastUpdate = time;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Gameover">*/
+        class Gameover
+        {
+          priority = 0.000000;
+          to="End";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"gameOver"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Loop">*/
+        class Loop
+        {
+          priority = 0.000000;
+          to="Update_Client_Ac";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"(time - _lastUpdate > 5 || WFBE_ForceUpdate) && !gameOver"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "End">*/
+    class End
+    {
+      name = "End";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="Init";
+  finalStates[] =
+  {
+    "End",
+  };
+};
+/*%FSM</COMPILE>*/

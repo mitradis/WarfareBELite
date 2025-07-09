@@ -1,0 +1,1 @@
+if !(isNull(unitBackpack _this)) then {typeOf(unitBackpack _this)} else {""}

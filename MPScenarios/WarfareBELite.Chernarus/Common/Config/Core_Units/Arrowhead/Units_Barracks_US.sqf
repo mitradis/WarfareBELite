@@ -1,0 +1,70 @@
+Private ['_u'];
+
+//--- US Troops.
+_u 			= ['US_Soldier_Light_EP1'];
+_u = _u		+ ['US_Soldier_EP1'];
+_u = _u		+ ['US_Soldier_B_EP1'];
+_u = _u		+ ['US_Soldier_LAT_EP1'];
+_u = _u		+ ['US_Soldier_AT_EP1'];
+_u = _u		+ ['US_Soldier_HAT_EP1'];
+_u = _u		+ ['US_Soldier_AA_EP1'];
+_u = _u		+ ['US_Soldier_AR_EP1'];
+_u = _u		+ ['US_Soldier_MG_EP1'];
+_u = _u		+ ['US_Soldier_GL_EP1'];
+_u = _u		+ ['US_Soldier_Sniper_EP1'];
+_u = _u		+ ['US_Soldier_SniperH_EP1'];
+_u = _u		+ ['US_Soldier_Sniper_NV_EP1'];
+_u = _u		+ ['US_Soldier_Marksman_EP1'];
+_u = _u		+ ['US_Soldier_Medic_EP1'];
+_u = _u		+ ['US_Soldier_Engineer_EP1'];
+_u = _u		+ ['US_Soldier_AMG_EP1'];
+_u = _u		+ ['US_Soldier_AAR_EP1'];
+_u = _u		+ ['US_Soldier_AHAT_EP1'];
+_u = _u		+ ['US_Soldier_AAT_EP1'];
+_u = _u		+ ['US_Soldier_Spotter_EP1'];
+_u = _u		+ ['US_Soldier_TL_EP1'];
+_u = _u		+ ['US_Soldier_SL_EP1'];
+_u = _u		+ ['US_Soldier_Officer_EP1'];
+_u = _u		+ ['US_Soldier_Crew_EP1'];
+_u = _u		+ ['US_Soldier_Pilot_EP1'];
+_u = _u		+ ['US_Delta_Force_EP1'];
+_u = _u		+ ['US_Delta_Force_TL_EP1'];
+_u = _u		+ ['US_Delta_Force_Medic_EP1'];
+_u = _u		+ ['US_Delta_Force_Assault_EP1'];
+_u = _u		+ ['US_Delta_Force_SD_EP1'];
+_u = _u		+ ['US_Delta_Force_MG_EP1'];
+_u = _u		+ ['US_Delta_Force_AR_EP1'];
+_u = _u		+ ['US_Delta_Force_Night_EP1'];
+_u = _u		+ ['US_Delta_Force_Marksman_EP1'];
+_u = _u		+ ['US_Delta_Force_M14_EP1'];
+_u = _u		+ ['US_Delta_Force_Air_Controller_EP1'];
+if (paramDLCBAF) then {
+	//--- BAF Desert Camo
+	_u = _u		+ ['BAF_Soldier_AA_DDPM'];
+	_u = _u		+ ['BAF_Soldier_AAA_DDPM'];
+	_u = _u		+ ['BAF_Soldier_AAT_DDPM'];
+	_u = _u		+ ['BAF_Soldier_AHAT_DDPM'];
+	_u = _u		+ ['BAF_Soldier_AAR_DDPM'];
+	_u = _u		+ ['BAF_Soldier_AMG_DDPM'];
+	_u = _u		+ ['BAF_Soldier_AT_DDPM'];
+	_u = _u		+ ['BAF_Soldier_HAT_DDPM'];
+	_u = _u		+ ['BAF_Soldier_AR_DDPM'];
+	_u = _u		+ ['BAF_crewman_DDPM'];
+	_u = _u		+ ['BAF_Soldier_EN_DDPM'];
+	_u = _u		+ ['BAF_Soldier_GL_DDPM'];
+	_u = _u		+ ['BAF_Soldier_FAC_DDPM'];
+	_u = _u		+ ['BAF_Soldier_MG_DDPM'];
+	_u = _u		+ ['BAF_Soldier_scout_DDPM'];
+	_u = _u		+ ['BAF_Soldier_Marksman_DDPM'];
+	_u = _u		+ ['BAF_Soldier_Medic_DDPM'];
+	_u = _u		+ ['BAF_Soldier_Officer_DDPM'];
+	_u = _u		+ ['BAF_Pilot_DDPM'];
+	_u = _u		+ ['BAF_Soldier_DDPM'];
+	_u = _u		+ ['BAF_ASoldier_DDPM'];
+	_u = _u		+ ['BAF_Soldier_L_DDPM'];
+	_u = _u		+ ['BAF_Soldier_N_DDPM'];
+	_u = _u		+ ['BAF_Soldier_SL_DDPM'];
+	_u = _u		+ ['BAF_Soldier_TL_DDPM'];
+};
+
+_u

@@ -1,0 +1,200 @@
+/*%FSM<COMPILE "T:\Users\Mitradis\Desktop\FSM Editor\scriptedFSM.cfg, missions">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Init",0,250,-74.017166,-296.043274,15.982856,-246.043442,0.000000,"Init"};
+item1[] = {"End",1,250,-198.827713,-59.197983,-108.827713,-9.198011,0.000000,"End"};
+item2[] = {"Update_Time",2,250,-73.728622,-145.167450,16.271379,-95.167450,0.000000,"Update Time"};
+item3[] = {"Loop",4,218,-74.092773,-224.973862,15.907227,-174.973846,0.000000,"Loop"};
+item4[] = {"Gameover",4,218,-197.991501,-144.482101,-107.991493,-94.482101,0.000000,"Gameover"};
+item5[] = {"Create",4,4314,-73.431000,-64.188675,16.568987,-14.188683,1.000000,"Create"};
+item6[] = {"Assign_a_Mission",2,250,72.904373,-65.024872,162.904373,-15.024889,0.000000,"Assign a" \n "Mission"};
+item7[] = {"Skip",2,250,186.627869,-224.739502,276.627808,-174.739502,0.000000,"Skip"};
+item8[] = {"_",8,218,215.894943,-49.973213,248.197006,-28.404099,0.000000,""};
+link0[] = {0,3};
+link1[] = {2,3};
+link2[] = {2,4};
+link3[] = {2,5};
+link4[] = {3,2};
+link5[] = {4,1};
+link6[] = {5,6};
+link7[] = {6,8};
+link8[] = {7,3};
+link9[] = {8,7};
+globals[] = {0.000000,0,0,0,0,640,480,1,14,6316128,1,-236.834076,294.996704,101.275803,-386.786194,644,591,1};
+window[] = {0,-1,-1,-1,-1,867,130,1238,130,1,662};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "missions";
+  class States
+  {
+    /*%FSM<STATE "Init">*/
+    class Init
+    {
+      name = "Init";
+      init = /*%FSM<STATEINIT""">*/"_missonsCiv = [];" \n
+       "_missonsWest = [];" \n
+       "_missonsEast = [];" \n
+       "_missions = 'WFBE_M_CONTENT' Call GetNamespace;" \n
+       "for '_i' from 0 to count(_missions)-1 do {" \n
+       "	switch ((_missions select _i) select 4) do {" \n
+       "		case civilian: {_missonsCiv = _missonsCiv + [_missions select _i]};" \n
+       "		case west: {_missonsWest = _missonsWest + [_missions select _i]};" \n
+       "		case east: {_missonsEast = _missonsEast + [_missions select _i]};" \n
+       "	};" \n
+       "};" \n
+       "" \n
+       "_maxmissionsciv = 'WFBE_MISSIONSMAXIMUM_CIV' Call GetNamespace;" \n
+       "_maxmissionswest = 'WFBE_MISSIONSMAXIMUM_WEST' Call GetNamespace;" \n
+       "_maxmissionseast = 'WFBE_MISSIONSMAXIMUM_EAST' Call GetNamespace;" \n
+       "_randomizer = 'WFBE_MISSIONSRANDOMIZER' Call GetNamespace;" \n
+       "_timeout = 'WFBE_MISSIONSTIMEOUT' Call GetNamespace;" \n
+       "" \n
+       "_lastUpdate = 0;" \n
+       "_lastMissionAssignedTimeCiv = -6000;" \n
+       "_lastMissionAssignedTimeWest = -6000;" \n
+       "_lastMissionAssignedTimeEast = -6000;" \n
+       "_canRunMissionCiv = false;" \n
+       "_canRunMissionWest = false;" \n
+       "_canRunMissionEast = false;" \n
+       "" \n
+       "['_WFBE_M_RUNNINGMISSIONS_CIV',0,true] Call SetNamespace;" \n
+       "['_WFBE_M_RUNNINGMISSIONS_WEST',0,true] Call SetNamespace;" \n
+       "['_WFBE_M_RUNNINGMISSIONS_EAST',0,true] Call SetNamespace;" \n
+       "_listRunMissions = [];"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Loop">*/
+        class Loop
+        {
+          priority = 0.000000;
+          to="Update_Time";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!gameOver && time - _lastUpdate > 45"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "End">*/
+    class End
+    {
+      name = "End";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Update_Time">*/
+    class Update_Time
+    {
+      name = "Update_Time";
+      init = /*%FSM<STATEINIT""">*/"_lastUpdate = time;" \n
+       "" \n
+       "_canRunMissionCiv = if (time - _lastMissionAssignedTimeCiv >= _timeout && ('_WFBE_M_RUNNINGMISSIONS_CIV' Call GetNamespace) < _maxmissionsciv) then {true} else {false};" \n
+       "_canRunMissionWest = if (time - _lastMissionAssignedTimeWest >= _timeout && ('_WFBE_M_RUNNINGMISSIONS_WEST' Call GetNamespace) < _maxmissionswest) then {true} else {false};" \n
+       "_canRunMissionEast = if (time - _lastMissionAssignedTimeEast >= _timeout && ('_WFBE_M_RUNNINGMISSIONS_EAST' Call GetNamespace) < _maxmissionseast) then {true} else {false};"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Create">*/
+        class Create
+        {
+          priority = 1.000000;
+          to="Assign_a_Mission";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!gameOver && time - _lastUpdate > 30 && (_canRunMissionCiv || _canRunMissionWest || _canRunMissionEast);"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Gameover">*/
+        class Gameover
+        {
+          priority = 0.000000;
+          to="End";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"gameOver"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Loop">*/
+        class Loop
+        {
+          priority = 0.000000;
+          to="Update_Time";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!gameOver && time - _lastUpdate > 45"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Assign_a_Mission">*/
+    class Assign_a_Mission
+    {
+      name = "Assign_a_Mission";
+      init = /*%FSM<STATEINIT""">*/"if (_canRunMissionCiv) then {_listRunMissions = _listRunMissions + [_missonsCiv select floor(random(count _missonsCiv))]};" \n
+       "if (_canRunMissionWest) then {_listRunMissions = _listRunMissions + [_missonsWest select floor(random(count _missonsWest))]};" \n
+       "if (_canRunMissionEast) then {_listRunMissions = _listRunMissions + [_missonsEast select floor(random(count _missonsEast))]};" \n
+       "" \n
+       "{" \n
+       "	if (Call Compile (_x select 3)) then {" \n
+       "		[_x select 1,_x select 2,_x select 4] ExecVM (_x select 0);" \n
+       "		switch (_x select 4) do {" \n
+       "			case civilian: {['_WFBE_M_RUNNINGMISSIONS_CIV',('_WFBE_M_RUNNINGMISSIONS_CIV' Call GetNamespace) + 1, true] Call SetNamespace;_lastMissionAssignedTimeCiv = time + random(_randomizer) - random(_randomizer)};" \n
+       "			case west: {['_WFBE_M_RUNNINGMISSIONS_WEST',('_WFBE_M_RUNNINGMISSIONS_WEST' Call GetNamespace) + 1, true] Call SetNamespace;_lastMissionAssignedTimeWest = time + random(_randomizer) - random(_randomizer)};" \n
+       "			case east: {['_WFBE_M_RUNNINGMISSIONS_EAST',('_WFBE_M_RUNNINGMISSIONS_EAST' Call GetNamespace) + 1, true] Call SetNamespace;_lastMissionAssignedTimeEast = time + random(_randomizer) - random(_randomizer)};" \n
+       "		};" \n
+       "	};" \n
+       "} forEach _listRunMissions;" \n
+       "_listRunMissions = [];"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="Skip";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Skip">*/
+    class Skip
+    {
+      name = "Skip";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Loop">*/
+        class Loop
+        {
+          priority = 0.000000;
+          to="Update_Time";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!gameOver && time - _lastUpdate > 45"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="Init";
+  finalStates[] =
+  {
+    "End",
+  };
+};
+/*%FSM</COMPILE>*/

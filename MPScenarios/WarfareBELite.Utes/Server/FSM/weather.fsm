@@ -1,0 +1,100 @@
+/*%FSM<COMPILE "D:\ArmA2\FSM Editor Personal Edition\scriptedFSM.cfg, weather">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Init",0,250,-81.542984,-257.577942,8.457038,-207.578140,0.000000,"Init"};
+item1[] = {"End",1,250,-216.387955,-52.508366,-126.387947,-2.508394,0.000000,"End"};
+item2[] = {"Update_Weather",2,4346,-82.090652,-139.314026,7.909359,-89.314034,0.000000,"Update Weather"};
+item3[] = {"Loop",4,218,53.846153,-139.681244,143.846161,-89.681236,0.000000,"Loop"};
+item4[] = {"Gameover",4,218,-216.387955,-139.464890,-126.387947,-89.464890,0.000000,"Gameover"};
+item5[] = {"_",8,218,-51.736092,-184.192123,-21.083296,-163.272247,0.000000,""};
+link0[] = {0,5};
+link1[] = {2,3};
+link2[] = {2,4};
+link3[] = {3,2};
+link4[] = {4,1};
+link5[] = {5,2};
+globals[] = {0.000000,0,0,0,0,640,480,1,8,6316128,1,-348.696411,348.696136,79.849762,-328.514618,921,617,1};
+window[] = {0,-1,-1,-1,-1,762,25,1438,25,1,939};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "weather";
+  class States
+  {
+    /*%FSM<STATE "Init">*/
+    class Init
+    {
+      name = "Init";
+      init = /*%FSM<STATEINIT""">*/"WF_Logic setVariable [""overCast"",random(1),true];" \n
+	   "_wt = 'WFBE_WEATHERTRANSITION' Call GetNamespace;" \n
+	   "_delay = ((_wt * 2) + 100);" \n
+       "_lastUpdate = time;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="Update_Weather";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "End">*/
+    class End
+    {
+      name = "End";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Update_Weather">*/
+    class Update_Weather
+    {
+      name = "Update_Weather";
+      init = /*%FSM<STATEINIT""">*/"_overCast = random(1);" \n
+       "if (isDedicated) then {_wt setOvercast _overCast};" \n
+       "WF_Logic setVariable [""overCast"",_overCast,true];" \n
+       "_lastUpdate = time;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Gameover">*/
+        class Gameover
+        {
+          priority = 0.000000;
+          to="End";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"gameOver"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Loop">*/
+        class Loop
+        {
+          priority = 0.000000;
+          to="Update_Weather";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!gameOver && time - _lastUpdate > _delay"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="Init";
+  finalStates[] =
+  {
+    "End",
+  };
+};
+/*%FSM</COMPILE>*/

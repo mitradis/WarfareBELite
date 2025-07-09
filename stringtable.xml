@@ -1,0 +1,1955 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="Arma2">
+  <Package name="CWarfare">
+    <Container name="WF">
+      <Key ID="STR_WF_MISSON_NAME_Chernarus">
+        <English>Warfare BE Lite - Chernarus</English>
+        <Russian>Warfare BE Lite - Черноруссия</Russian>
+      </Key>
+      <Key ID="STR_WF_MISSON_NAME_Takistan">
+        <English>Warfare BE Lite - Takistan</English>
+        <Russian>Warfare BE Lite - Такистан</Russian>
+      </Key>
+      <Key ID="STR_WF_MISSON_NAME_Utes">
+        <English>Warfare BE Lite - Utes</English>
+        <Russian>Warfare BE Lite - Утес</Russian>
+      </Key>
+      <Key ID="STR_WF_MISSON_NAME_Zargabad">
+        <English>Warfare BE Lite - Zargabad</English>
+        <Russian>Warfare BE Lite - Заграбад</Russian>
+      </Key>
+      <Key ID="STR_WF_ACTION_DeployMASH">
+        <English>Deploy MASH</English>
+        <Russian>Развернуть госпиталь</Russian>
+      </Key>
+      <Key ID="STR_WF_ACTION_Lockpick">
+        <English>Lockpick</English>
+        <Russian>Открыть отмычкой</Russian>
+      </Key>
+      <Key ID="STR_WF_ACTION_Repair">
+        <English>Repair</English>
+        <Russian>Ремонт</Russian>
+      </Key>
+      <Key ID="STR_WF_ACTION_Spot">
+        <English>Spot</English>
+        <Russian>Указать</Russian>
+      </Key>
+      <Key ID="STR_WF_ACTION_UndeployMASH">
+        <English>Pack MASH</English>
+        <Russian>Свернуть госпиталь</Russian>
+      </Key>
+      <Key ID="STR_WF_ACTION_OrderFollowMe">
+        <English>Order your men to follow me</English>
+        <Russian>Прикажите своим следовать за мной</Russian>
+      </Key>
+      <Key ID="STR_WF_ACTION_FollowMe">
+        <English>Follow me</English>
+        <Russian>Следуй за мной</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Award_Bounty">
+        <English>$%1 Received for neutralizing a %2.</English>
+        <Russian>+$%1 за нейтрализацию %2.</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Award_Bounty_Assist">
+        <English>$%1 Received for the neutralization assistance of a %2.</English>
+        <Russian>$%1 Получено за оказание помощи в нейтрализации %2.</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_AI_Commander">
+        <English>AI Commander Selected!</English>
+        <Russian>Командует ИИ!</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Commander_Bounty_Town">
+        <English>Our team has captured %2. $%1 Commander-Bonus.</English>
+        <Russian>Наша команда захватила %2. бонус командира $%1.</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_FundsTransfer">
+        <English>You have received $%1 from %2.</English>
+        <Russian>Вы получили $%1 от %2.</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Gear_RespawnCharge">
+        <English>You were deducted from $%1 due to your gear</English>
+        <Russian>У вас изъято $%1 за ваше снаряжение</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_ICBM_Launch">
+        <English>WARNNING! An Intercontinental ballistic missile launch has been detected!</English>
+        <Russian>ВНИМАНИЕ! Зафиксирован запуск ядерной ракеты!</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_PlayerCommander">
+        <English>You are the new Commander! Good luck!</English>
+        <Russian>Вы Командующий!</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Structure_Sold">
+        <English>A "%1" structure has been sold!</English>
+        <Russian>"%1" строение проданно!</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Structure_Sell">
+        <English>A "%1" structure is going to be sold in %2 seconds!</English>
+        <Russian>"%1" постройка будет продана в течении %2 секунд!</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Secondary_Award">
+        <English>Your Squad has been awarded with %1%2 for the completion of a secondary objective.</English>
+        <Russian>Ваш отряд был награжден %1%2 за завершения вторичной цели.</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Salvaged_Unit">
+        <English>$%1 Received for salvaging a %2</English>
+        <Russian>$%1 Получено за утилизацию %2</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Town_Captured">
+        <English>%1 has been captured by %2 !</English>
+        <Russian>%1 был захвачен %2 !</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Town_Bounty_Full">
+        <English>Your Squad has captured %1. $%2 earned.</English>
+        <Russian>+$%2 за захват %1.</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Teamkill_Building">
+        <English>Player %1 (ID: %2) freaks out and rioted in Base (%3 has been destroyed)!</English>
+        <Russian>Игрок %1 (ID: %2) ведет себя вызывающе на базе (%3 был уничтожен)!</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Teamswap">
+        <English>Player %1 (ID: %2) has teamswapped! (From %3 to %4)</English>
+        <Russian>Игрок %1 (ID: %2) сменил сторону! (с %3 на %4)</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Teamkill">
+        <English>$%1 removed for a teamkill! go to the ophthalmologist...</English>
+        <Russian>-$%1 за огонь по своим.</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_TaskTO_Display">
+        <English>Your commander has ordered you to perform a "%1" order for %2!</English>
+        <Russian>Ваш командир приказывает "%1" 2%!</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_TaskTown_Capture">
+        <English>Capture %1</English>
+        <Russian>Захватить %1</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_TaskTown_Protect">
+        <English>Protect %1</English>
+        <Russian>Защитить %1</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Teamswap_Warnning">
+        <English>You will be sent back to the lobby for teamswapping. Please join your original team!</English>
+        <Russian>Вы будете возвращены в лобби за смену команды. Пожалуйста вернитесь в вашу команду!</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_Upgrade_Complete_Message">
+        <English>%1 Upgrade completed, %1 is now at Level %2.</English>
+        <Russian>%1 модернизация завершена, достигнут уровень %2.</Russian>
+      </Key>
+      <Key ID="STR_WF_CHAT_VoteForNewCommander">
+        <English>%1 is the Commander.</English>
+        <Russian>%1 командует.</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_All">
+        <English>All</English>
+        <Russian>Все</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_AutoAI">
+        <English>Auto AI: Enable</English>
+        <Russian>Авто ИИ: Вкл</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_AutoAIOff">
+        <English>Auto AI: Disable</English>
+        <Russian>Авто ИИ: Откл</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_Behavior">
+        <English>Behavior:</English>
+        <Russian>Поведение:</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_BuyType">
+        <English>Buy Types:</English>
+        <Russian>Тип отряда:</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_CombatMode">
+        <English>Combat Mode:</English>
+        <Russian>Режим боя:</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_Cash">
+        <English>Funds: $%1</English>
+        <Russian>Деньги: $%1</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_Defense">
+        <English>Defend</English>
+        <Russian>Защита</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_Formation">
+        <English>Formation:</English>
+        <Russian>Строй:</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_Mission">
+        <English>Mission Type</English>
+        <Russian>Тип задания</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_Move">
+        <English>Move</English>
+        <Russian>Передвижение</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_Patrol">
+        <English>Patrol</English>
+        <Russian>Патрулирование</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_Respawn">
+        <English>Respawn</English>
+        <Russian>Возрождение</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_RespawnButton">
+        <English>Squad Respawn</English>
+        <Russian>Возрождение отряда</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_SetBuyType">
+        <English>Set Buy Types</English>
+        <Russian>Установить тип отряда</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_SetRespawn">
+        <English>Set Squad Respawn</English>
+        <Russian>Возрождение отряда</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_SetTeamProperties">
+        <English>Set Squad Properties</English>
+        <Russian>Свойства отряда</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_Speed">
+        <English>Speed:</English>
+        <Russian>Скорость:</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_SquadManagmentLabel">
+        <English>Squadmember Management</English>
+        <Russian>Управление подчиненными</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_SquadSettingsLabel">
+        <English>Squad Management</English>
+        <Russian>Управление отрядом</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_TakeTowns">
+        <English>Take Towns</English>
+        <Russian>Захватывать города</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_Tasks">
+        <English>Special Tasks</English>
+        <Russian>Специальные задания</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_TaskTO_Do">
+        <English>Task Type</English>
+        <Russian>Тип задачи</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_TaskTO_Set">
+        <English>Send the order to the squad</English>
+        <Russian>Отправить заявку в команду</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_TaskTO_Time">
+        <English>Task Duration</English>
+        <Russian>Продолж. задачи</Russian>
+      </Key>
+      <Key ID="STR_WF_COMMAND_UnflipButton">
+        <English>Unflip Vehicle</English>
+        <Russian>Перевернуть</Russian>
+      </Key>
+	  <Key ID="STR_WF_ECONOMY_DisbandWorker">
+        <English>Disband Worker</English>
+        <Russian>Отпустить работника</Russian>
+      </Key>
+      <Key ID="STR_WF_ECONOMY_HireWorker">
+        <English>Hire Worker</English>
+        <Russian>Нанять рабочего</Russian>
+      </Key>
+      <Key ID="STR_WF_ECONOMY_Income_Sys">
+        <English>Income Distribution:</English>
+        <Russian>Распределение доходов:</Russian>
+      </Key>
+      <Key ID="STR_WF_ECONOMY_Income_Sys_Com">
+        <English>Commander Income</English>
+        <Russian>Доход Командира</Russian>
+      </Key>
+      <Key ID="STR_WF_ECONOMY_Income_Sys_Ply">
+        <English>Squadleaders Income</English>
+        <Russian>Доход лидера отряда</Russian>
+      </Key>
+      <Key ID="STR_WF_ECONOMY_SetIncome">
+        <English>Set Income Distribution</English>
+        <Russian>Установить распределение</Russian>
+      </Key>
+      <Key ID="STR_WF_ECONOMY_SellStructure">
+        <English>Sell Structure</English>
+        <Russian>Продать постройку</Russian>
+      </Key>
+      <Key ID="STR_WF_ECONOMY_Workers">
+        <English>HQ-Workers:</English>
+        <Russian>HQ-рабочие:</Russian>
+      </Key>
+      <Key ID="STR_WF_END_Soldier_Lost">
+        <English>Soldiers Lost</English>
+        <Russian>Погибло солдат</Russian>
+      </Key>
+      <Key ID="STR_WF_END_Soldier_Recruited">
+        <English>Soldier Recruited</English>
+        <Russian>Мобилизовано солдат</Russian>
+      </Key>
+      <Key ID="STR_WF_END_Vehicle_Built">
+        <English>Vehicles Built</English>
+        <Russian>Техники построено</Russian>
+      </Key>
+      <Key ID="STR_WF_END_Vehicle_Lost">
+        <English>Vehicles Lost</English>
+        <Russian>Техники потеряно</Russian>
+      </Key>
+      <Key ID="STR_WF_END_Victory">
+        <English>%1 Team has won</English>
+        <Russian>%1 выиграл!</Russian>
+      </Key>  
+      <Key ID="STR_WF_GEAR_MenuGear">
+        <English>Gear Purchase Menu:</English>
+        <Russian>Меню покупки снаряжения:</Russian>
+      </Key>
+      <Key ID="STR_WF_GEAR_MenuTransfer">
+        <English>Transfer (Adv)</English>
+        <Russian>Перевод (Расш.)</Russian>
+      </Key>
+      <Key ID="STR_WF_GEAR_MenuView">
+        <English>View:</English>
+        <Russian>Посмотреть:</Russian>
+      </Key>
+      <Key ID="STR_WF_GEAR_MenuTarget">
+        <English>Target:</English>
+        <Russian>Цель:</Russian>
+      </Key>
+      <Key ID="STR_WF_GEAR_MenuBuy">
+        <English>Buy</English>
+        <Russian>Купить</Russian>
+      </Key>
+      <Key ID="STR_WF_GEAR_MenuCreateTemplate">
+        <English>Create Template</English>
+        <Russian>Создать шаблон</Russian>
+      </Key>
+      <Key ID="STR_WF_GEAR_MenuDeleteTemplate">
+        <English>Delete Template</English>
+        <Russian>Удалить шаблон</Russian>
+      </Key>
+      <Key ID="STR_WF_GEAR_MenuReload">
+        <English>Reload</English>
+        <Russian>Перезагрузить</Russian>
+      </Key>
+      <Key ID="STR_WF_GEAR_MenuClear">
+        <English>Clear</English>
+        <Russian>Очистить</Russian>
+      </Key>
+      <Key ID="STR_WF_GEAR_Backpack">
+        <English>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Capacity:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#42b6ff' shadow='1'&gt;Weapons: &lt;/t&gt;&lt;t shadow='1'&gt;%1/%2 (Size: %3)&lt;/t&gt;&lt;br /&gt;&lt;t color='#42b6ff' shadow='1'&gt;Magazines: &lt;/t&gt;&lt;t shadow='1'&gt;%4/%5&lt;/t&gt;&lt;br /&gt;&lt;t color='#42b6ff' shadow='1'&gt;Overall: &lt;/t&gt;&lt;t shadow='1' color='#FF6242'&gt;%6/%7&lt;/t&gt;</English>
+        <Russian>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Вместимость:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#42b6ff' shadow='1'&gt;Оружия: &lt;/t&gt;&lt;t shadow='1'&gt;%1/%2 (Size: %3)&lt;/t&gt;&lt;br /&gt;&lt;t color='#42b6ff' shadow='1'&gt;Магазины: &lt;/t&gt;&lt;t shadow='1'&gt;%4/%5&lt;/t&gt;&lt;br /&gt;&lt;t color='#42b6ff' shadow='1'&gt;Всего: &lt;/t&gt;&lt;t shadow='1' color='#FF6242'&gt;%6/%7&lt;/t&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_GEAR_Vehicle">
+        <English>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Capacity:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#42b6ff' shadow='1'&gt;Weapons: &lt;/t&gt;&lt;t shadow='1'&gt;%1/%2&lt;/t&gt;&lt;br /&gt;&lt;t color='#42b6ff' shadow='1'&gt;Magazines: &lt;/t&gt;&lt;t shadow='1'&gt;%3/%4&lt;/t&gt;&lt;br /&gt;&lt;t color='#42b6ff' shadow='1'&gt;Backpacks: &lt;/t&gt;&lt;t shadow='1'&gt;%5/%6&lt;/t&gt;&lt;br /&gt;</English>
+        <Russian>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Вместимость:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#42b6ff' shadow='1'&gt;Оружия: &lt;/t&gt;&lt;t shadow='1'&gt;%1/%2&lt;/t&gt;&lt;br /&gt;&lt;t color='#42b6ff' shadow='1'&gt;Магазины: &lt;/t&gt;&lt;t shadow='1'&gt;%3/%4&lt;/t&gt;&lt;br /&gt;&lt;t color='#42b6ff' shadow='1'&gt;Рюкзаки: &lt;/t&gt;&lt;t shadow='1'&gt;%5/%6&lt;/t&gt;&lt;br /&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_Cannot_Carry_Backpack">
+        <English>The unit cannot carry a backpack.</English>
+        <Russian>Юнит не может носить рюкзак.</Russian>
+      </Key>
+      <Key ID="STR_WF_Target_Dead">
+        <English>The unit is dead, refreshing...</English>
+        <Russian>Юнит мертв, обновление...</Russian>
+      </Key>
+      <Key ID="STR_WF_Template_Too_Hight">
+        <English>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Information:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t&gt;The template upgrade level is above the current gear or barrack upgrade level.&lt;/t&gt;</English>
+        <Russian>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Информация:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t&gt;Уровень модернизации предметов в шаблоне выше, чем уровень модернизации снаряжения или казарм.&lt;/t&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_Template_Cannot_Be_Set">
+        <English>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Information:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t&gt;The template cannot be set due to some foreign equipment.&lt;/t&gt;</English>
+        <Russian>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Информация:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t&gt;Шаблон не может быть создан из-за иностранного снаряжения.&lt;/t&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_Only_Gear_Tab">
+        <English>A template may only be removed from the template tab in the gear view.</English>
+        <Russian>Для удаления шаблона сначала нужно выбрать его на вкладке шаблонов.</Russian>
+      </Key>
+      <Key ID="STR_WF_GEAR_MenuCost">
+        <English>&lt;t size='1.1'&gt;&lt;t color='#42b6ff' shadow='1'&gt;Gear Cost: &lt;/t&gt;&lt;t shadow='1' color='%1'&gt;$%2.&lt;/t&gt;&lt;/t&gt;</English>
+        <Russian>&lt;t size='1.1'&gt;&lt;t color='#42b6ff' shadow='1'&gt;Стоимость: &lt;/t&gt;&lt;t shadow='1' color='%1'&gt;$%2.&lt;/t&gt;&lt;/t&gt;</Russian>
+      </Key>
+	  <Key ID="STR_WF_GEAR_ProhibPlayerDefault">
+        <English>Information:\n\n You may not use the quick reload function since you don't have any custom gear, you need to purchase a loadout first.</English>
+        <Russian>Информация:\n\n Вы не можете использовать функцию быстрой перезарядки, так как у вас нет индивидуального снаряжения, вам нужно сначала приобрести снаряжение.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_BaseArea_Reached">
+        <English>Information:\n\n You've reached the bases area limit, you can sell old buildings or build in an existing base area.</English>
+        <Russian>Информация:\n\n Количество районов для баз достигло предела, вы можете продать старые здания, или построить в районе существующей базы.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Camps_Purchase">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; Infantry may not be purchased while camps in the city are held by the enemy.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; Пехота не может быть куплена, пока бункеры города удерживаются противником.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Hook_Manned">
+        <English>Information:\n\n Manned Vehicles cannot be hooked. Make sure that the vehicle is empty.</English>
+        <Russian>Информация:\n\n Техника с юнитами не может перевозиться. Убедись что техника пуста.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Lockpick_Failed">
+        <English>Information:\n\n You've failed to unlock the vehicle.</English>
+        <Russian>Информация:\n\n Вам не удалось открыть транспорт отмычкой.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Lockpick_Succeed">
+        <English>Information:\n\n The vehicle has been successfully unlocked.</English>
+        <Russian>Информация:\n\n Транспорт успешно открыт отмычкой.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_NoArty">
+        <English>Information:\n\n You need at last one artillery in order to call a Fire Mission.</English>
+        <Russian>Информация:\n\n Для вызова артиллерии у Вас должна быть хотя бы одна арт. установка.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Paratroop_Info">
+        <English>Information:\n\n An aerial unit has been called according to your order, it shall arrive here quite soon.</English>
+        <Russian>Информация:\n\n По вашему приказу вызван десантный ЛА, он скоро прибудет на место.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Repair_MHQ_BeingRepaired">
+        <English>Information:\n\n The MHQ is already being repaired.</English>
+        <Russian>Информация:\n\n КШМ уже в ремонте.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Repair_MHQ_Funds">
+        <English>Information:\n\n %1 %2 Needed in order to repair the MHQ.</English>
+        <Russian>Информация:\n\n %1 %2 необходимо для восстановления КШМ.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Repair_MHQ_None">
+        <English>Information:\n\n There is no MHQ to repair around.</English>
+        <Russian>Информация:\n\n Поблизости нет КШМ который можно было отремонтировать.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Repair_MHQ_Repair">
+        <English>Information:\n\n The MHQ is being fixed...</English>
+        <Russian>Информация:\n\n КШМ ремонтируется...</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Supply_Deliver">
+        <English>Information:\n\n A Supply truck of your team has delivered supplies at %1, the supply value is now %2/%3. $%4. Gained during the delivery.</English>
+        <Russian>Информация:\n\n Грузовик снабжения доставил 1% единиц припасов. Объем припасов %2/%3. $%4 Получено во время доставки.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Supply_Equal">
+        <English>Information:\n\n A Supply truck of your team has delivered supplies at %1, the supply value is %2/%3.</English>
+        <Russian>Информация:\n\n Грузовик снабжения доставил %1 единиц припасов, Объем припасов %2/%3.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Supply_Full">
+        <English>Information:\n\n The Supply truck is fully loaded.</English>
+        <Russian>Информация:\n\n Грузовик снабжения заполнен.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Supply_Status">
+        <English>Information:\n\n The Supply truck has %1 supplies in cargo.</English>
+        <Russian>Информация:\n\n В грузовик снабжения загружено %1 единиц поставки.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Spot_Info">
+        <English>Information:\n\n Spotting Ability require the use of binoculars.</English>
+        <Russian>Информация:\n\n Чтобы указать цель используйте бинокль.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Upgrade_Start">
+        <English>Information:\n\n Starting %1 Upgrade.</English>
+        <Russian>Информация:\n\n Начата модернизация: %1.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_BuyEffective">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; Building &lt;t color='#85B5FA'&gt;%1&lt;/t&gt;.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; в производстве.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Build_Complete">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; Your &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; has arrived.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; готов.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Funds">
+        <English>&lt;t align='left' color='#8A9269'&gt;My Funds: $&lt;t color='#76F563'&gt;%1&lt;/t&gt;.&lt;/t&gt;</English>
+        <Russian>&lt;t align='left' color='#8A9269'&gt;Деньги: $&lt;t color='#76F563'&gt;%1&lt;/t&gt;.&lt;/t&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Funds_Missing">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; You are currently missing $&lt;t color='#85B5FA'&gt;%1&lt;/t&gt; in order to buy: &lt;t color='#85B5FA'&gt;%2&lt;/t&gt;.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; Не хватает $&lt;t color='#85B5FA'&gt;%1&lt;/t&gt; для покупки: &lt;t color='#85B5FA'&gt;%2&lt;/t&gt;.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Purchased_Gear">
+        <English>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Information:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t&gt;Purchased Equipement to %1 for $&lt;t color='#F5D363'&gt;%2&lt;/t&gt;.&lt;/t&gt;</English>
+        <Russian>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Информация:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t&gt;Куплено снаряжение для %1 за $&lt;t color='#F5D363'&gt;%2&lt;/t&gt;.&lt;/t&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_NotPurchased_Gear">
+        <English>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Information:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t&gt;The gear was not purchased since nothing has changed.&lt;/t&gt;</English>
+        <Russian>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Информация:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t&gt;Снаряжение не куплено т.к. оно не изменилось.&lt;/t&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Funds_Self">
+        <English>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; You may not transfer money to &lt;t color='#BD63F5'&gt;yourself&lt;/t&gt;.</English>
+        <Russian>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; Вы не можете переводить деньги &lt;t color='#BD63F5'&gt;себе&lt;/t&gt;.</Russian>
+      </Key>
+	  <Key ID="STR_WF_INFO_Funds_Sent">
+        <English>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#76F563'&gt;$%1.&lt;/t&gt; were sent to &lt;t color='#BD63F5'&gt;%2&lt;/t&gt;.</English>
+        <Russian>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#76F563'&gt;$%1.&lt;/t&gt; были отправлены &lt;t color='#BD63F5'&gt;%2&lt;/t&gt;.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Healing">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; is being healed. &lt;br/&gt;&lt;br/&gt;Please wait for &lt;t color='#85B5FA'&gt;%2&lt;/t&gt; seconds during the healing...</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; лечится. &lt;br/&gt;&lt;br/&gt;Пожалуйста подождите &lt;t color='#85B5FA'&gt;%2&lt;/t&gt; секунд для лечения...</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Heal_Failed">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; has failed to be healed.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; не вылечен.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Heal_Success">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; has been successfully healed.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; вылечен.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_MaxGroup">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; Units Limit reached (&lt;t color='#85B5FA'&gt;%1&lt;/t&gt; Units).</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; Достигнут лимит отряда (&lt;t color='#85B5FA'&gt;%1&lt;/t&gt; человек).</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_OffmapWarning">
+        <English>&lt;t color='#EB0606'&gt;Warning!&lt;/t&gt; &lt;br/&gt;&lt;br/&gt; You are leaving the battlefield!&lt;br/&gt;&lt;br/&gt; &lt;t color='#EB0606'&gt; %1 &lt;/t&gt; Seconds left.</English>
+        <Russian>&lt;t color='#EB0606'&gt;Внимание!&lt;/t&gt; &lt;br/&gt;&lt;br/&gt; Вы покинули поле битвы!Осталось &lt;br/&gt;&lt;br/&gt; &lt;t color='#EB0606'&gt;%1&lt;/t&gt; секунд до наказания.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Queu">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; Queued.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; на очереди.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Queu_Max">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; The maximal queue has been reached for this factory (&lt;t color='#85B5FA'&gt;%1&lt;/t&gt;), please be patient.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; очередь завода достигла максимума (&lt;t color='#85B5FA'&gt;%1&lt;/t&gt;), пожалуйста подождите.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Rearming">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; is being rearmed. &lt;br/&gt;&lt;br/&gt;Please wait for &lt;t color='#85B5FA'&gt;%2&lt;/t&gt; seconds during the rearm process...</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; перевооружается. &lt;br/&gt;&lt;br/&gt;Ждите &lt;t color='#85B5FA'&gt;%2&lt;/t&gt; секунд для перезарядки...</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Rearm_Failed">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; has failed to be rearmed.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; не перезаряжена.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Rearm_Success">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; has been rearmed.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; перезаряжена.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Refueling">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; is being refueled. &lt;br/&gt;&lt;br/&gt;Please wait for &lt;t color='#85B5FA'&gt;%2&lt;/t&gt; seconds during the refuel process...</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; заправляется. &lt;br/&gt;&lt;br/&gt;Пожалуйста ждите &lt;t color='#85B5FA'&gt;%2&lt;/t&gt; секунд для заправки...</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Refueling_Failed">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; has failed to be refueled.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; обломись с заправкой.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Refueling_Success">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; has been refueled.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; полный бак.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Repairing">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; is being repaired. &lt;br/&gt;&lt;br/&gt;Please wait for &lt;t color='#85B5FA'&gt;%2&lt;/t&gt; seconds during the reparations...</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; ремонтируется. &lt;br/&gt;&lt;br/&gt;Ждите &lt;t color='#85B5FA'&gt;%2&lt;/t&gt; секунд для починки...</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Repair_Failed">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; has failed to be repaired.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; обломись с починкой.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Repair_Success">
+        <English>&lt;t color='#F8D664'&gt;Information:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; A &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; has been successfully repaired.</English>
+        <Russian>&lt;t color='#F8D664'&gt;Информация:&lt;/t&gt;&lt;br/&gt;&lt;br/&gt; &lt;t color='#85B5FA'&gt;%1&lt;/t&gt; все путем.</Russian>
+      </Key>
+      <Key ID="STR_WF_INFO_Camp_Captured">
+        <English>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Information:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t&gt;Your squad has captured a camp near &lt;t color='#B6F563'&gt;%1&lt;/t&gt; and has been rewarded with &lt;t color='#EAD267'&gt;$%2.&lt;/t&gt;&lt;/t&gt;</English>
+        <Russian>&lt;t color='#42b6ff' size='1.2' underline='1' shadow='1'&gt;Информация:&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t&gt;Ваш отряд захватил бункер недалеко от &lt;t color='#B6F563'&gt;%1&lt;/t&gt; и получил вознаграждение в размере &lt;t color='#EAD267'&gt;$%2.&lt;/t&gt;&lt;/t&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_MAIN_CommandMenu">
+        <English>Command Center</English>
+        <Russian>Командный центр</Russian>
+      </Key>
+      <Key ID="STR_WF_MAIN_EconomyMenu">
+        <English>Economy</English>
+        <Russian>Экономика</Russian>
+      </Key>
+      <Key ID="STR_WF_MAIN_FundsMenu">
+        <English>Funds Transfer Menu:</English>
+        <Russian>Меню переводов:</Russian>
+      </Key>
+      <Key ID="STR_WF_MAIN_Purchase_Units">
+        <English>Purchase Units</English>
+        <Russian>Отряды</Russian>
+      </Key>
+      <Key ID="STR_WF_MAIN_Purchase_Gear">
+        <English>Purchase Gear</English>
+        <Russian>Снаряжение</Russian>
+      </Key>
+      <Key ID="STR_WF_MAIN_ServicePoint">
+        <English>Service point</English>
+        <Russian>Пункт обслуживания</Russian>
+      </Key>
+      <Key ID="STR_WF_MAIN_TeamMenu">
+        <English>Team</English>
+        <Russian>Команда</Russian>
+      </Key>
+      <Key ID="STR_WF_MAIN_TacticalMenu">
+        <English>Tactical Center</English>
+        <Russian>Тактический центр</Russian>
+      </Key>
+      <Key ID="STR_WF_MAIN_Uptime">
+        <English>Uptime: %1 days, %2 hours, %3 minutes, %4 seconds</English>
+        <Russian>Время работы: %1 день, %2 часов, %3 минут, %4 секунд</Russian>
+      </Key>
+      <Key ID="STR_WF_MAIN_UpgradeMenu">
+        <English>Factory Upgrade</English>
+        <Russian>Модернизация</Russian>
+      </Key>
+      <Key ID="STR_WF_MAIN_VotingMenu">
+        <English>Voting</English>
+        <Russian>Голосование</Russian>
+      </Key>
+      <Key ID="STR_WF_M_BASE_Attack_Description">
+        <English>One of our scout team has reported us that multiple resistance squads are heading toward our base.&lt;br/&gt;&lt;br/&gt;According to the report, theirs arrival is imminent, we will have to defend the base at all cost, HQ has ordered us to neutralize the threat even if the base is lost.&lt;br/&gt;&lt;br/&gt;</English>
+        <Russian>Одна из наших разведкоманд сообщает о многочисленных отрядах сопротивления приближающихся к нашей базе.&lt;br/&gt;&lt;br/&gt;Из их доклада следует что нападение неизбежно, мы должны защитить базу любой ценой, штаб приказал нейтрализовать угрозу даже если база уничтожена.&lt;br/&gt;&lt;br/&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_M_BASE_Attack">
+        <English>Defense: Base</English>
+        <Russian>Защитить: База</Russian>
+      </Key>
+      <Key ID="STR_WF_M_PLAYERS_Attack_Air">
+        <English>Search and Destroy: Vehicle</English>
+        <Russian>Найти и уничтожить: Техника</Russian>
+      </Key>
+      <Key ID="STR_WF_M_PLAYERS_Attack_Air_Description">
+        <English>HQ warned us about an incomming mercenary helicopter hunting down our Squadleaders.&lt;br/&gt;&lt;br/&gt;Your mission is to locate and destroy that helicopter.&lt;br/&gt;&lt;br/&gt;</English>
+        <Russian>Штаб уведомил нас о приближающемся вертолете наемников,охотящимся на командиров отделений.&lt;br/&gt;&lt;br/&gt;Ваша задача - обнаружить и уничтожить вертолет.&lt;br/&gt;&lt;br/&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_M_TOWN_Attack">
+        <English>Defense: %1</English>
+        <Russian>Защита: %1</Russian>
+      </Key>
+      <Key ID="STR_WF_M_TOWN_Attack_Description">
+        <English>Our intels has informed us that a resistance commander is planning an attack on &lt;marker name='%1Depot'&gt;%1&lt;marker&gt;.&lt;br/&gt;&lt;br/&gt;The attack will be launched soon, make sure to defend that town at all cost.&lt;br/&gt;&lt;br/&gt;A Search and Destroy mission will be necessary to complete %1 defense.&lt;br/&gt;&lt;br/&gt;</English>
+        <Russian>Наша разведка сообщила нам, что командующий силами сопротивления планирует нападение на &lt;marker name='%1Depot'&gt;%1&lt;marker&gt;.&lt;br/&gt;&lt;br/&gt; Наступление начнется скоро, будте уверены, этот город должен быть защищен любой ценой.&lt;br/&gt;&lt;br/&gt;Необходимо найти и уничтожить силы сопротивления %1 defense.&lt;br/&gt;&lt;br/&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_M_UAV_RetrieveModule_Description">
+        <English>From what we've learned from our intels, an UAV has been shot down in this area, retrieving it's module is essential for our team as it contains critical intel about enemy forces. &lt;br/&gt;&lt;br/&gt;Once that your team has secured the crash site, we will send a team to retrieve the module, make sure to protect them.&lt;br/&gt;&lt;br/&gt;</English>
+        <Russian>По данным нашей разведки БЛА был сбит в этом районе, нужно вернуть модуль БЛА так как он важен для нашей команды, поскольку содержит критически важные сведения о вражеских силах, &lt;br/&gt;&lt;br/&gt; Как только Ваша команда обнаружит место крушения, мы пошлем команду, чтобы извлечь модуль, позаботьтесь об их защите.&lt;br/&gt;&lt;br/&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_M_UAV_RetrieveModule">
+        <English>Assist: UAV Module Retrieval</English>
+        <Russian>Помощь:  Поиск модуля БЛА</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_GroupSizeAI">
+        <English>AI: Group Size Squads (AI)</English>
+        <Russian>ИИ: Размер отряда</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_GroupSizePlayer">
+        <English>AI: Group Size Squads (Player)</English>
+        <Russian>ИИ: Размер отряда (Игрок)</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_KeepAI">
+        <English>AI: Keep units on JIP</English>
+        <Russian>ИИ: Сохранять состав отряда</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_AI">
+        <English>AI: Squads</English>
+        <Russian>ИИ: Отряды</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Arty">
+        <English>ARTILLERY: Calls</English>
+        <Russian>Артиллерия: Вызов арт.удара</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_ArtilleryComputer">
+        <English>ARTILLERY: Computer</English>
+        <Russian>Артиллерия: Компьютер</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_ArtilleryUI">
+        <English>ARTILLERY: Interface</English>
+        <Russian>Артиллерия: Интерфейс</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Artillery">
+        <English>ARTILLERY: Range</English>
+        <Russian>Артиллерия: Дальность</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_AICommander">
+        <English>BASE: Allow AI Commander</English>
+        <Russian>База: Разрешить ИИ командира</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Allies">
+        <English>BASE: Allies</English>
+        <Russian>База: Союзники</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_AntiAirRadar">
+        <English>BASE: Anti-Air Radar</English>
+        <Russian>База: Радар ПВО</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_BaseArea">
+        <English>BASE: Areas Limit</English>
+        <Russian>База: Ограничение районов</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_BaseArea_Limit">
+        <English>BASE: Limit</English>
+        <Russian>База: Предел</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_AutoMannedDefense">
+        <English>BASE: Auto manned Defenses</English>
+        <Russian>База: Автоматическая защита</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_AutoDefense_Range">
+        <English>BASE: Auto Defenses Range</English>
+        <Russian>База: Область автоматической защиты</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_BuildingsLimit">
+        <English>BASE: Buildings Limit (Servicepoint x2)</English>
+        <Russian>База: Лимит строений</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_ConstructionMode">
+        <English>BASE: Construction Mode</English>
+        <Russian>База: Режим строительства</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_DefensePlacement">
+        <English>BASE: Defenses Placement</English>
+        <Russian>База: Размещение обороны</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_HQDeployCost">
+        <English>BASE: HQ Deployment Cost</English>
+        <Russian>База: Развертывание HQ</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_HQDeployRange">
+        <English>BASE: HQ Deploy Range</English>
+        <Russian>База: Штаб-Область развертывания</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_BasePatrols">
+        <English>BASE: Patrols</English>
+        <Russian>База: Патрули</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_SpawnSystemRestrict">
+        <English>BASE: Start Near towns</English>
+        <Russian>База: Позиция около городов</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_StartingDistance">
+        <English>BASE: Starting Distance</English>
+        <Russian>База: Начальная дистанция</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_StartingLocations">
+        <English>BASE: Starting Locations</English>
+        <Russian>База: Позиция на старте</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Currency">
+        <English>ECONOMY: Currency</English>
+        <Russian>Экономика: Валюта</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_IncomeInterval">
+        <English>ECONOMY: Income Interval</English>
+        <Russian>Экономика: Интервал дохода</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_IncomeSystem">
+        <English>ECONOMY: Income System</English>
+        <Russian>Экономика: Приход денег</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Funds_East">
+        <English>ECONOMY: Starting Funds (East)</English>
+        <Russian>Экономика: Деньги на старте (Восток)</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Funds_West">
+        <English>ECONOMY: Starting Funds (West)</English>
+        <Russian>Экономика: Деньги на старте (Запад)</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Supply_East">
+        <English>ECONOMY: Starting Supply (East)</English>
+        <Russian>Экономика: Снабжение на старте (Восток)</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Supply_West">
+        <English>ECONOMY: Starting Supply (West)</English>
+        <Russian>Экономика: Снабжение на старте (Запад)</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_SupplySystem">
+        <English>ECONOMY: Supply System</English>
+        <Russian>Экономика: Система снабжения</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_FastTime">
+        <English>ENVIRONMENT: Fast Time</English>
+        <Russian>Природа: Быстрое время</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_TimeOfDay">
+        <English>ENVIRONMENT: Time of Day</English>
+        <Russian>Природа: Время дня</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Weather">
+        <English>ENVIRONMENT: Weather</English>
+        <Russian>Природа: Погода</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_BAF">
+        <English>EXTENSION: British Armed Forces</English>
+        <Russian>Дополнение: British Armed Forces</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_PMC">
+        <English>EXTENSION: Private Military Company</English>
+        <Russian>Дополнение: Private Military Company</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Alice">
+        <English>GAMEPLAY: Ambient Civilians (ALICE)</English>
+        <Russian>Геймплей: Гражданское окружение (ALICE)</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Hangars">
+        <English>GAMEPLAY: Airport Hangars</English>
+        <Russian>Геймплей: Авиация в ангарах</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_BodiesTimeout">
+        <English>GAMEPLAY: Bodies deletion Delay</English>
+        <Russian>Геймплей: Удалять трупы</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_VehicleDelay">
+        <English>GAMEPLAY: Empty Vehicles Lifespan</English>
+        <Russian>Геймплей: Удалять пустой транспорт</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_FastTravel">
+        <English>GAMEPLAY: Fast Travel</English>
+        <Russian>Геймплей: Быстрое перемещение</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_FriendlyFire">
+        <English>GAMEPLAY: Friendly Fire (Buildings)</English>
+        <Russian>Геймплей: Огонь по своим (Заводы)</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Grass">
+        <English>GAMEPLAY: Grass Distance</English>
+        <Russian>Геймплей: Дистанция травы</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_KickTeamswapper">
+        <English>GAMEPLAY: Kick Teamswappers</English>
+        <Russian>Геймплей: Запретить смену стороны</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_VehLock">
+        <English>Gameplay: Vehicle Lock</English>
+        <Russian>Геймплей: Купленная техника заперта</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_LimitedBoundaries">
+        <English>GAMEPLAY: Limited Boundaries</English>
+        <Russian>Геймплей: Ограничение границ</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_MissileRange">
+        <English>GAMEPLAY: Missile Range Limitation</English>
+        <Russian>Геймплей: Ограничение ракет</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_SecondaryMissions">
+        <English>GAMEPLAY: Secondary Missions</English>
+        <Russian>Геймплей: Вторичные миссии</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_ShowUID">
+        <English>GAMEPLAY: Show Player UID</English>
+        <Russian>Геймплей: Показывать UID Игрока</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Specialization">
+        <English>GAMEPLAY: Specialization</English>
+        <Russian>Геймплей: Двойная стоимость</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_ThermalImaging">
+        <English>GAMEPLAY: Thermal Imaging</English>
+        <Russian>Геймплей: ТВП</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_TrackAI">
+        <English>GAMEPLAY: Track AI on Map (yellow dots)</English>
+        <Russian>Геймплей: Показывать ИИ на карте</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_TrackPlayers">
+        <English>GAMEPLAY: Track Players on Map</English>
+        <Russian>Геймплей: Показывать игроков на карте</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_UnitsBounty">
+        <English>GAMEPLAY: Units Bounty</English>
+        <Russian>Геймплей: Награда за убийство юнитов</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Upgrades_East">
+        <English>GAMEPLAY: Upgrades (East)</English>
+        <Russian>Геймплей: Модернизация (Восток)</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Upgrades_West">
+        <English>GAMEPLAY: Upgrades (West)</English>
+        <Russian>Геймплей: Модернизация (Запад)</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_VictoryCondition">
+        <English>GAMEPLAY: Victory Condition</English>
+        <Russian>Геймплей: Условие для победы</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_ViewDistance">
+        <English>GAMEPLAY: View Distance</English>
+        <Russian>Геймплей: Дистанция видимости</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_HighCommand">
+        <English>MODULE: High Command</English>
+        <Russian>Модуль: Верховное командование</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_ICBM">
+        <English>MODULE: ICBM</English>
+        <Russian>Модуль: МБР</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_UPSMON">
+        <English>MODULE: UPSMON AI</English>
+        <Russian>Модуль: UPSMON ИИ</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Clouds">
+        <English>MODULE: Volumetric Clouds</English>
+        <Russian>Модуль: Объемные облака</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Camp">
+        <English>RESPAWN: Camps</English>
+        <Russian>Возрождение: У бункеров</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_CampRespawnRule">
+        <English>RESPAWN: Enemy near</English>
+        <Russian>Возрождение: Враг рядом</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Respawn">
+        <English>RESPAWN: Delay</English>
+        <Russian>Возрождение: Время</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Respawn_MASH">
+        <English>RESPAWN: MASH</English>
+        <Russian>Возрождение: На госпитале</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_MobileRespawn">
+        <English>RESPAWN: Mobile</English>
+        <Russian>Возрождение: Медицинская машина</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_MobileRespawnGear">
+        <English>RESPAWN: Mobile Gear</English>
+        <Russian>Возрождение: Снаряжение вне базы</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Respawn_Penalty">
+        <English>RESPAWN: Penalty</English>
+        <Russian>Возрождение: Штраф</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_TownRespawnRange">
+        <English>RESPAWN: Towns Range</English>
+        <Russian>Возрождение: Радиус в городе</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_AdvancedAir">
+        <English>RESTRICTION: Advanced Aircraft</English>
+        <Russian>Запрет: Тяжелая авиация</Russian>
+      </Key>
+      <Key ID="STR_WF_TownSV" >
+        <English>Town: %1/%2</English>
+        <Russian>Город: %1/%2</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_TownsAmount">
+        <English>TOWNS: Amount</English>
+        <Russian>Город: Количество</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_TownsCamps">
+        <English>TOWNS: Camps</English>
+        <Russian>Город: Бункеры</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_TownsGear">
+        <English>TOWNS: Equipment Purchase</English>
+        <Russian>Город: Покупка снаряжения</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_TownsCaptureMode">
+        <English>TOWNS: Capture Mode (Camps)</English>
+        <Russian>Город: Способ захвата (Бункеры)</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_TownsConquestMode">
+        <English>TOWNS: Conquest Mode (Towns)</English>
+        <Russian>Город: Режим Завоевания (Город)</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Occupation">
+        <English>TOWNS: Occupation</English>
+        <Russian>Город: Захват</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Difficulty_Occupation">
+        <English>TOWNS: Occupation Difficulty</English>
+        <Russian>Город: Сложность захвата</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Occupation_Type_East">
+        <English>TOWNS: Occupation Faction - East</English>
+        <Russian>Город: Охраняющая Фракция - Восток</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Occupation_Type_West">
+        <English>TOWNS: Occupation Faction - West</English>
+        <Russian>Город: Охраняющая Фракция - Запад</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_MaxResPatrols">
+        <English>TOWNS: Patrols Max.</English>
+        <Russian>Город: Патрули Сопротивл. кол-во</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_TownProtectionRange">
+        <English>TOWNS: Protection Range</English>
+        <Russian>Город: Радиус защиты от строительства</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_TownsPurchaseMilita">
+        <English>TOWNS: Purchase Infantry</English>
+        <Russian>Город: Покупка пехоты</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Resistance">
+        <English>TOWNS: Resistance</English>
+        <Russian>Город: Сопротивление</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Reinforcement_Type">
+        <English>TOWNS: Resistance Faction</English>
+        <Russian>Город: Фракция сопротивления</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_StartingMode">
+        <English>TOWNS: Starting Mode</English>
+        <Russian>Город: Начальные условия</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_Yes">
+        <English>Yes</English>
+        <Russian>Да</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_No">
+        <English>No</English>
+        <Russian>Нет</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_All">
+        <English>All</English>
+        <Russian>Все</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Aircraft">
+        <English>Aircraft (expensive Land Vehicles)</English>
+        <Russian>Для наземной техники</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_Both">
+        <English>Both</English>
+        <Russian>Оба</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_CampSel">
+        <English>Camps</English>
+        <Russian>Бункер</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_CampnDepot">
+        <English>Camps and Depot</English>
+        <Russian>Бункеры и Центр</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Classic">
+        <English>Classic</English>
+        <Russian>Класический</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Collide">
+        <English>Collide detection enable</English>
+        <Russian>Обнаружение коллизии включено</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Collide_No">
+        <English>Collide detection disable</English>
+        <Russian>Обнаружение коллизии выключено</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Divided_Towns">
+        <English>Divided Towns</English>
+        <Russian>Разделения городов</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_Depot">
+        <English>Depot</English>
+        <Russian>Центр</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Enabled_Upgrade">
+        <English>Enabled with Upgrade</English>
+        <Russian>Включено с обновлением</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Extra_Small">
+        <English>Extra Small</English>
+        <Russian>Очень мало</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_Free">
+        <English>Free</English>
+        <Russian>Свободно</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_Leader">
+        <English>Leader</English>
+        <Russian>Лидер</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_Player">
+        <English>Player</English>
+        <Russian>Игрок</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_Fee">
+        <English>Fee</English>
+        <Russian>Платно</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Full">
+        <English>Full</English>
+        <Russian>Все</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_HQWorkers">
+        <English>HQ-Workers</English>
+        <Russian>HQ-рабочие</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Hard">
+        <English>Hard</English>
+        <Russian>Тяжелый</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_IncomeSystem_Full">
+        <English>Full</English>
+        <Russian>Полный</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_IncomeSystem_Half">
+        <English>Half</English>
+        <Russian>Половина</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Income_Sys_Param">
+        <English>Commander Income - Realistic System</English>
+        <Russian>Доход Командира - Реалистичная Система</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Income_Sys_Param_Full">
+        <English>Commander Income - Full Income System</English>
+        <Russian>Доход Командира - Система Полного Дохода</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Infantry">
+        <English>Infantry (expensive Land/Air)</English>
+        <Russian>Для всей техники</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Impossible">
+        <English>Impossible</English>
+        <Russian>Невозможно</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Large">
+        <English>Large</English>
+        <Russian>Много</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_LandVehicles">
+        <English>Land Vehicles (expensive Aircraft)</English>
+        <Russian>Для воздушной техники</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Light">
+        <English>Light</English>
+        <Russian>Легкий</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Long">
+        <English>Long</English>
+        <Russian>Большая</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Medium">
+        <English>Medium</English>
+        <Russian>Средне</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Money_Supply">
+        <English>Money and Supply</English>
+        <Russian>Деньги и снабжение</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Money">
+        <English>Money</English>
+        <Russian>Деньги</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Grass_Far">
+        <English>Far</English>
+        <Russian>Далеко</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Grass_Medium">
+        <English>Medium</English>
+        <Russian>Средне</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Grass_Short">
+        <English>Short</English>
+        <Russian>Близко</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Grass_Toggle">
+        <English>Toggleable</English>
+        <Russian>Регулируется</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Nearby_Town">
+        <English>Nearby Towns</English>
+        <Russian>Близлежащие города</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_None">
+        <English>None</English>
+        <Russian>Ни одного</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Parameters">
+        <English>Game parameters</English>
+        <Russian>Игровые параметры</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Respawn_CampsRule_WestEast">
+        <English>West | East</English>
+        <Russian>Запад | Восток</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Respawn_CampsRule_WestEastRes">
+        <English>West | East | Resistance</English>
+        <Russian>Запад | Восток | Сопротивление</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Respawn_Defender">
+        <English>Occupation Only</English>
+        <Russian>Только окупация</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Respawn_CampsNearby">
+        <English>Nearby Camps</English>
+        <Russian>Близлежащие бункеры</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Respawn_Penalty_Full">
+        <English>Gear Price</English>
+        <Russian>Полная стоимость снаряжения</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Respawn_Penalty_Mobile">
+        <English>Gear Price on Mobile Respawn</English>
+        <Russian>Полная стоимость на моб. респауне</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Respawn_Penalty_OneFourth">
+        <English>Gear Price 1/4</English>
+        <Russian>1/4 стоимости снаряжения</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Respawn_Penalty_OneHalf">
+        <English>Gear Price 1/2</English>
+        <Russian>1/2 стоимости снаряжения</Russian>
+      </Key>
+	  <Key ID="STR_WF_PARAMETER_Restriction_Air_H">
+        <English>Helicopters</English>
+        <Russian>Вертолеты</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Restriction_Air_HTransport">
+        <English>Transport Helicopters</English>
+        <Russian>Транспортные вертолеты</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Side_East">
+        <English>East</English>
+        <Russian>Восток</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Side_West">
+        <English>West</English>
+        <Russian>Запад</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Short">
+        <English>Short</English>
+        <Russian>Малая</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_SupplySystem_Truck">
+        <English>Trucks</English>
+        <Russian>Грузовики</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_StartingLocations_Random">
+        <English>Random</English>
+        <Russian>Случайно</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_StartingLocations_WestNorth">
+        <English>West = North | East = South</English>
+        <Russian>Запад С | Восток Ю</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_StartingLocations_WestSouth">
+        <English>West = South | East = North</English>
+        <Russian>Запад Ю | Восток С</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Small">
+        <English>Small</English>
+        <Russian>Мало</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_TownsCaptureMode_Threshold">
+        <English>Units Threshold</English>
+        <Russian>Количество юнитов</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Territorial">
+        <English>Territorial</English>
+        <Russian>Территориально</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Time">
+        <English>Time</English>
+        <Russian>Время</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Victory_Annihilation">
+        <English>Annihilation</English>
+        <Russian>Уничтожение</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Victory_Assassination">
+        <English>Assassination</English>
+        <Russian>Убийство</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Victory_Supremacy">
+        <English>Supremacy</English>
+        <Russian>Превосходство</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Victory_Towns">
+        <English>Towns</English>
+        <Russian>Города</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Backpack">
+        <English>Backpack</English>
+        <Russian>Рюкзак</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Vehicles">
+        <English>Vehicles</English>
+        <Russian>Техника</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Weather_Clear">
+        <English>Clear</English>
+        <Russian>Чисто</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Weather_Cloudy">
+        <English>Cloudy</English>
+        <Russian>Облачно</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Weather_Dynamic">
+        <English>Dynamic</English>
+        <Russian>Динамично</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Weather_Rainy">
+        <English>Rainy</English>
+        <Russian>Дождливая</Russian>
+      </Key>
+      <Key ID="STR_WF_PARAMETER_Weapons">
+        <English>Weapons</English>
+        <Russian>Вооружение</Russian>
+      </Key>
+	  <Key ID="STR_WF_RESPAWN_GearDefault">
+        <English>Default Gear</English>
+        <Russian>Обычное снаряжение</Russian>
+      </Key>
+	  <Key ID="STR_WF_RESPAWN_GearCurrent">
+        <English>Keep current Gear</English>
+        <Russian>Текущее снаряжение</Russian>
+      </Key>
+      <Key ID="STR_WF_RESPAWN_Status">
+        <English>&lt;t color='#42b6ff'&gt;Respawning across &lt;t color='#F5D363'&gt;%1&lt;/t&gt;&lt;/t&gt;</English>
+        <Russian>&lt;t color='#42b6ff'&gt;Возрождение через &lt;t color='#F5D363'&gt;%1&lt;/t&gt;&lt;/t&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_RESPAWN_Status_AT">
+        <English>&lt;t color='#42b6ff'&gt;Respawning at &lt;t color='#ADFF61'&gt;%1&lt;/t&gt;&lt;/t&gt;</English>
+        <Russian>&lt;t color='#42b6ff'&gt;Возрождение у &lt;t color='#ADFF61'&gt;%1&lt;/t&gt;&lt;/t&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_RESPAWN_Title">
+        <English>Respawn Menu:</English>
+        <Russian>Меню возрождения:</Russian>
+      </Key>
+      <Key ID="STR_WF_SERVICE_Heal">
+        <English>Heal</English>
+        <Russian>Вылечить</Russian>
+      </Key>
+      <Key ID="STR_WF_SERVICE_Rearm">
+        <English>Rearm</English>
+        <Russian>Перезарядить</Russian>
+      </Key>
+      <Key ID="STR_WF_SERVICE_Refuel">
+        <English>Refuel</English>
+        <Russian>Заправить</Russian>
+      </Key>
+      <Key ID="STR_WF_SERVICE_Repair">
+        <English>Repair</English>
+        <Russian>Ремонт</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_ArtilleryStatus">
+        <English>Status:</English>
+        <Russian>Статус:</Russian>
+      </Key>
+	  <Key ID="STR_WF_TACTICAL_ArtilleryRadius">
+        <English>Target-Radius:</English>
+        <Russian>Цель-Радиус:</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_ArtilleryOverview">
+        <English>Artillery Overview</English>
+        <Russian>Обзор артиллерии</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_ArtillerySetFireMission">
+        <English>Set Fire Mission</English>
+        <Russian>Назначить арт. цель</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_ArtilleryCallFireMission">
+        <English>Call Fire Mission</English>
+        <Russian>Вызвать арт. удар</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_Artillery">
+        <English>Artillery:</English>
+        <Russian>Артиллерия:</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_UAVCrashSite">
+        <English>Crash Site:</English>
+        <Russian>Место падения</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_TargetedArea">
+        <English>Targeted Area:</English>
+        <Russian>Область нападения</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_ArtilleryMinimapInfo">
+        <English>An Artillery Minimap display fitler has been toggled</English>
+        <Russian>Режим фильтра на артиллерийском дисплее был сменен</Russian>
+      </Key>
+	  <Key ID="STR_WF_TACTICAL_ArtilleryInRange">
+        <English>Range OK</English>
+        <Russian>Дальность OK</Russian>
+      </Key>
+	  <Key ID="STR_WF_TACTICAL_ArtilleryOutOfRange">
+        <English>Out of Range</English>
+        <Russian>Вне диапазона</Russian>
+      </Key>
+	  <Key ID="STR_WF_TACTICAL_ArtilleryRangeTooClose">
+        <English>Too Close</English>
+        <Russian>Слишком близко</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_Available">
+        <English>Available</English>
+        <Russian>Доступно</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_ClickOnMap">
+        <English>Click on the map to activate the selected action</English>
+        <Russian>Нажмите на карту, чтобы активировать выбранное действие</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_FastTravel">
+        <English>Fast Travel</English>
+        <Russian>Быстрое перемещение</Russian>
+      </Key>      
+      <Key ID="STR_WF_TACTICAL_ParadropAmmo">
+        <English>Paradrop - Ammunition</English>
+        <Russian>Сброс - Аммуниция</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_ParadropVehicle">
+        <English>Paradrop - Vehicle</English>
+        <Russian>Сброс - Машина</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_Paratroop">
+        <English>Paratroops</English>
+        <Russian>Десант</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_Paradrop">
+        <English>Paradrop</English>
+        <Russian>Поддержка</Russian>
+      </Key>
+	  <Key ID="STR_WF_TACTICAL_Price">
+        <English>Price:</English>
+        <Russian>Цена:</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_RequestButton">
+        <English>Request</English>
+        <Russian>Запрос</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_Support">
+        <English>Support:</English>
+        <Russian>Поддержка:</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_UnitCam">
+        <English>Unit Camera</English>
+        <Russian>Камера юнита</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_UAV">
+        <English>UAV - Deploy</English>
+        <Russian>БЛА - Развернуть</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_UAVDestroy">
+        <English>UAV - Destroy</English>
+        <Russian>БЛА - Уничтожить</Russian>
+      </Key>
+      <Key ID="STR_WF_TACTICAL_UAVRemoteControl">
+        <English>UAV - Remote Control</English>
+        <Russian>БЛА - Удаленный доступ</Russian>
+      </Key>
+	  <Key ID="STR_WF_TEAM_DisbandLabel">
+        <English>Squad AI:</English>
+        <Russian>Отряд ИИ:</Russian>
+      </Key>
+      <Key ID="STR_WF_TEAM_DisbandButton">
+        <English>AI Disband</English>
+        <Russian>ИИ Демобилизовать</Russian>
+      </Key>
+	  <Key ID="STR_WF_TEAM_GraphicFilterLabel">
+        <English>Graphic-Filter:</English>
+        <Russian>Графика-Фильтр:</Russian>
+      </Key>
+	  <Key ID="STR_WF_TEAM_MoneyTransferLabel">
+        <English>Money Transfer:</English>
+        <Russian>Перевод средств:</Russian>
+      </Key>
+      <Key ID="STR_WF_TEAM_MoneyTransfer">
+        <English>Funds Transfer: $%1</English>
+        <Russian>Денежный перевод: $%1</Russian>
+      </Key>
+      <Key ID="STR_WF_TEAM_TerrainGridLabel">
+        <English>Terrain Grid: %1</English>
+        <Russian>Детализация земли: %1</Russian>
+      </Key>
+      <Key ID="STR_WF_TEAM_TransferButton">
+        <English>Transfer Money</English>
+        <Russian>Перевести деньги</Russian>
+      </Key>
+	  <Key ID="STR_WF_TEAM_VideoOptionsLabel">
+        <English>Video-Options:</English>
+        <Russian>Видео-Опции:</Russian>
+      </Key>
+      <Key ID="STR_WF_TEAM_ViewDistanceLabel">
+        <English>View Distance: %1m</English>
+        <Russian>Дальность видимости: %1</Russian>
+      </Key>
+      <Key ID="STR_WF_TOOLTIP_ArtilleryToggle">
+        <English>This icon allows you to toggle between the different artillery display mode on the map</English>
+        <Russian>Эта кнопка позволит вам переключать различные режимы отображения артиллерии на карте</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_BackButton">
+        <English>Back</English>
+        <Russian>Назад</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_Buy_Commander">
+        <English>Vehicle Commander</English>
+        <Russian>Командир техники</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_Buy_Driver">
+        <English>Driver</English>
+        <Russian>Водитель</Russian>
+      </Key>
+      <Key ID="STR_WF_TOOLTIP_Buy_Extra">
+        <English>Vehicle Special crew</English>
+        <Russian>Специальная команда экипажа</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_Buy_Gunner">
+        <English>Gunner</English>
+        <Russian>Стрелок</Russian>
+      </Key>
+      <Key ID="STR_WF_TOOLTIP_Buy_Locked">
+        <English>Vehicle lock</English>
+        <Russian>Запереть</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_CloseButton">
+        <English>Close</English>
+        <Russian>Закрыть</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_CommandMenu_Commandteam">
+        <English>Allows the commander to handle Squads, Squadmember and Special Tasks</English>
+        <Russian>Позволяет командиру руководить отрядами, членами команды и специальными задачами</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_CommandMenu_Commander_Menu">
+        <English>Allows the commander to handle the income distribution and HQ-workers</English>
+        <Russian>Позволяет командиру руководить распределением доходов и работниками HQ</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_CommandMenu_SpecialMenu">
+        <English>Artillery, Ammo/Vehicle-drop, Paratroop, UnitCam, FastTravel, UAV and ICBM</English>
+        <Russian>Артиллерия, Боеприпасы/Сброс-Техники, Парашютисты, Камера Юнита, Быстрое перемещение, UAV и ICBM</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_CommandMenu_SupportMenu">
+        <English>Rearm, Refuel, Repair, Heal</English>
+        <Russian>Перезарядка, Заправка, Ремонт, Лечение</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_CommandMenu_Upgrade_Menu">
+        <English>Allows the commander to handle the factory enhancements</English>
+        <Russian>Позволяет командиру руководить заводами</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_HeadbugFix">
+        <English>Fix Headbug</English>
+        <Russian>Исправить баг головы</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_MainMenu_Purchase_Gear">
+        <English>Weapon, Ammonition, Backpacks, Bags and Misc</English>
+        <Russian>Оружие, Аммуниция, Рюкзаки, Сумки и прочее</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_MainMenu_Purchase_Units">
+        <English>Infantry, Vehicles and Aircraft</English>
+        <Russian>Пехота, Техника и Авиация</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_MainMenu_TeamMenu">
+        <English>Distance View/Details, Money Transfer and KI-Member</English>
+        <Russian>Дистанция Обзора/Детализация, Перевод средств и ИИ-члены</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_MainMenu_VoteForCommander">
+        <English>Vote for a new Commander</English>
+        <Russian>Выбор нового коммандира</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_Parameter">
+        <English>Show game parameters</English>
+        <Russian>Показать игровые параметры</Russian>
+      </Key>
+      <Key ID="STR_WF_TOOLTIP_RespawnDefault">
+        <English>Toggle between the default and current gear</English>
+        <Russian>Переключение между страндартным и текущем снаряжением</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_RespawnST">
+        <English>Respawn stucked Supply Trucks. ATTENTION => ALL Trucks will be destroyed!</English>
+        <Russian>Появление грузовика снабжение невозможно. ВНИМАНИЕ => Все грузовики будут уничтожены!</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_TeamOrders_Con1">
+        <English>Squad Managment</English>
+        <Russian>Управление отрядом</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_TeamOrders_Con2">
+        <English>Special Tasks</English>
+        <Russian>Специальные задания</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_TeamOrders_Con3">
+        <English>Squadmember Managment</English>
+        <Russian>Управление подчиненным</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_Unflip">
+        <English>Unflip Vehicle</English>
+        <Russian>Перевернуть</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_UnitPurchase_Con1">
+        <English>Purchase Infantry</English>
+        <Russian>Покупка пехоты</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_UnitPurchase_Con2">
+        <English>Purchase light Vehicles (Hmmwv, Truck, Motorcycle, Bike, Boat ect.)</English>
+        <Russian>Покупка легкой техники</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_UnitPurchase_Con3">
+        <English>Purchase heavy Vehicles (Tanks, Artillery ect.)</English>
+        <Russian>Покупка тяжелой техники</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_UnitPurchase_Con4">
+        <English>Purchase Aircarft (Gunship, Helicopter,Plane)</English>
+        <Russian>Покупка авиации</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_UnitPurchase_Con5">
+        <English>Airport / Hangar</English>
+        <Russian>Аэропорт / Ангар</Russian>
+      </Key>
+	  <Key ID="STR_WF_TOOLTIP_UnitPurchase_Con6">
+        <English>Buy Units on a conquered Depot</English>
+        <Russian>Покупка юнитов на захваченном центре</Russian>
+      </Key>
+      <Key ID="STR_WF_UNITS_ArmorLabel">
+        <English>Armor</English>
+        <Russian>Броня</Russian>
+      </Key>
+	  <Key ID="STR_WF_UNITS_Cash">
+        <English>Money: $%1</English>
+        <Russian>Деньги: $%1</Russian>
+      </Key>
+	  <Key ID="STR_WF_UNITS_DurationLabel">
+        <English>Construction Time</English>
+        <Russian>Время строительства</Russian>
+      </Key>
+	  <Key ID="STR_WF_UNITS_FactionChoiceLabel">
+        <English>Faction selection</English>
+        <Russian>Выбор фракции</Russian>
+      </Key>
+      <Key ID="STR_WF_UNITS_FactionLabel">
+        <English>Faction</English>
+        <Russian>Фракция</Russian>
+      </Key>
+      <Key ID="STR_WF_UNITS_Factory">
+        <English>Factory:</English>
+        <Russian>Завод:</Russian>
+      </Key>
+      <Key ID="STR_WF_UNITS_InformationLabel">
+        <English>Information:</English>
+        <Russian>Информация:</Russian>
+      </Key>
+      <Key ID="STR_WF_UNITS_MaxSpeedLabel">
+        <English>Maximum Speed</English>
+        <Russian>Максимальная скорость</Russian>
+      </Key>
+      <Key ID="STR_WF_UNITS_Magazines">
+        <English>Ammunition</English>
+        <Russian>Аммуниция</Russian>
+      </Key>
+      <Key ID="STR_WF_UNITS_QueuedLabel">
+        <English>Factory Queue: %1</English>
+        <Russian>Очередь завода: %1</Russian>
+      </Key>
+      <Key ID="STR_WF_UNITS_SkillLabel">
+        <English>Skill/Suitability</English>
+        <Russian>Умение/Пригодность</Russian>
+      </Key>
+      <Key ID="STR_WF_UNITS_TransportCabilityLabel">
+        <English>Transport Capacity</English>
+        <Russian>Вместимость транспорта</Russian>
+      </Key>
+      <Key ID="STR_WF_UNITS_Weapons">
+        <English>Gear</English>
+        <Russian>Снаряжение</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_ArtilleryAmmo">
+        <English>Artillery Ammunition</English>
+        <Russian>Артиллерийская Амуниция</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_Airlift">
+        <English>Airlift</English>
+        <Russian>Авиатранспортировка</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_AlreadyRunning">
+        <English>An Upgrade is already running</English>
+        <Russian>Модернизация уже проводится.</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_ArtilleryUpgrade">
+        <English>Artillery Reloading</English>
+        <Russian>Перезарядка артиллерии</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_Condition">
+        <English>This upgrade requires a parameter to be enabled</English>
+        <Russian>Эта модернизация должна быть разрешена в настройках миссии</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_Cost">
+        <English>Cost: %1</English>
+        <Russian>Цена: %1</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_Dependent">
+        <English>This upgrade requires the %1 upgrade at level %2</English>
+        <Russian>Требуется предварительная модернизация %1 до уровня %2</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_Duration">
+        <English>Build Time: %1</English>
+        <Russian>Время сборки: %1</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_Gear">
+        <English>Gear</English>
+        <Russian>Снаряжение</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_Level">
+        <English>Current Level: %1</English>
+        <Russian>Уровень: %1</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_Maximum">
+        <English>Upgrade Level Limit reached</English>
+        <Russian>Достигнут предельный уровень модернизации</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_RunningInfo">
+        <English>Upgrade in Progress</English>
+        <Russian>Проводится модернизация</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_RespawnRange">
+        <English>Ambulance Range</English>
+        <Russian>Радиус возрождения на мед. машинке</Russian>
+      </Key>
+      <Key ID="STR_WF_UPGRADE_Supply">
+        <English>Supply</English>
+        <Russian>Снабжение</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_Description">
+        <English>Description:</English>
+        <Russian>Описание:</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_barracks_Desc">
+        <English>This upgrade unlocks infantry units.&lt;br/&gt;&lt;br/&gt;This allows the team to buy better infantry units at the Barracks.</English>
+        <Russian>This upgrade unlocks infantry units.&lt;br/&gt;&lt;br/&gt;This allows the team to buy better infantry units at the Barracks.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_FastTravel_Desc">
+        <English>This upgrade unlocks Fast Travel.&lt;br/&gt;&lt;br/&gt;Allows the use of Fast Traveling from the Tactical Center.</English>
+        <Russian>This upgrade unlocks Fast Travel.&lt;br/&gt;&lt;br/&gt;Allows the use of Fast Traveling from the Tactical Center.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_Gear_Desc">
+        <English>This upgrade unlocks weapons and gear.&lt;br/&gt;&lt;br/&gt;This allows the team to buy better weapons and gear at the Barracks.</English>
+        <Russian>This upgrade unlocks weapons and gear.&lt;br/&gt;&lt;br/&gt;This allows the team to buy better weapons and gear at the Barracks.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_Ammo_Desc">
+        <English>This upgrade unlocks ammo and ordinance.&lt;br/&gt;&lt;br/&gt;This allows the commander to place ammo and ordinance crates from the construction menu.</English>
+        <Russian>This upgrade unlocks ammo and ordinance.&lt;br/&gt;&lt;br/&gt;This allows the commander to place ammo and ordinance crates from the construction menu.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_lightfactory_Desc">
+        <English>This upgrade unlocks light vehicles.&lt;br/&gt;&lt;br/&gt;This allows the team to buy better vehicles at the Light Factory.</English>
+        <Russian>This upgrade unlocks light vehicles.&lt;br/&gt;&lt;br/&gt;This allows the team to buy better vehicles at the Light Factory.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_Supply_Desc">
+        <English>Multiplier to increase supply income.&lt;br/&gt;&lt;br/&gt;Multi of Supply per Min (Level 0-2): x1 / x2 / x3. Supplies per Truck Load (Level 0-2): 5 / 7 / 10</English>
+        <Russian>Multiplier to increase supply income.&lt;br/&gt;&lt;br/&gt;Multi of Supply per Min (Level 0-2): x1 / x2 / x3. Supplies per Truck Load (Level 0-2): 5 / 7 / 10</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_RespawnRange_Desc">
+        <English>Increases the mobile spawn respawn distance.&lt;br/&gt;&lt;br/&gt;Maximum distance (Level 0-2): 250m / 350m / 500m</English>
+        <Russian>Increases the mobile spawn respawn distance.&lt;br/&gt;&lt;br/&gt;Maximum distance (Level 0-2): 250m / 350m / 500m</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_heavyfactory_Desc">
+        <English>This upgrade unlocks heavy vehicles.&lt;br/&gt;&lt;br/&gt;This allows the team to buy better vehicles at the Heavy Factory.</English>
+        <Russian>This upgrade unlocks heavy vehicles.&lt;br/&gt;&lt;br/&gt;This allows the team to buy better vehicles at the Heavy Factory.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_ArtilleryUpgrade_Desc">
+        <English>This upgrade decreases the cooldown time of Artillery.&lt;br/&gt;&lt;br/&gt;Cooldown (Level 0-3): 300s / 250s / 200s / 150s</English>
+        <Russian>This upgrade decreases the cooldown time of Artillery.&lt;br/&gt;&lt;br/&gt;Cooldown (Level 0-3): 300s / 250s / 200s / 150s</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_ArtilleryAmmo_Desc">
+        <English>This upgrade unlocks new ammunition for Artillery pieces.&lt;br/&gt;&lt;br/&gt;This allows the Artillery-units to fire improved ammunition.</English>
+        <Russian>This upgrade unlocks new ammunition for Artillery pieces.&lt;br/&gt;&lt;br/&gt;This allows the Artillery-units to fire improved ammunition.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_aircraftfactory_Desc">
+        <English>This upgrade unlocks aircrafts.&lt;br/&gt;&lt;br/&gt;This allows the team to buy better aircraft at the Aircraft Factory and Airport Hangars.</English>
+        <Russian>This upgrade unlocks aircrafts.&lt;br/&gt;&lt;br/&gt;This allows the team to buy better aircraft at the Aircraft Factory and Airport Hangars.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_Airlift_Desc">
+        <English>This upgrade unlocks airlifting.&lt;br/&gt;&lt;br/&gt;This upgrade is a requirement for teams that want to use Airlifting.</English>
+        <Russian>This upgrade unlocks airlifting.&lt;br/&gt;&lt;br/&gt;This upgrade is a requirement for teams that want to use Airlifting.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_Paradrop_Desc">
+        <English>This upgrade unlocks supply paradrop.&lt;br/&gt;&lt;br/&gt;This allows the team to call a vehicle or ammo paradrop from the Tactical Center.</English>
+        <Russian>This upgrade unlocks supply paradrop.&lt;br/&gt;&lt;br/&gt;This allows the team to call a vehicle or ammo paradrop from the Tactical Center.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_Paratroop_Desc">
+        <English>This upgrade unlocks paratroop.&lt;br/&gt;&lt;br/&gt;This allows the team to call paratroop drops from the Tactical Center.</English>
+        <Russian>This upgrade unlocks paratroop.&lt;br/&gt;&lt;br/&gt;This allows the team to call paratroop drops from the Tactical Center.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_UAV_Desc">
+        <English>This upgrade unlocks UAV.&lt;br/&gt;&lt;br/&gt;This allows the team to buy a UAV from the Tactical Center.</English>
+        <Russian>This upgrade unlocks UAV.&lt;br/&gt;&lt;br/&gt;This allows the team to buy a UAV from the Tactical Center.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UPGRADE_ICBM_Desc">
+        <English>This upgrade unlocks ICBM.&lt;br/&gt;&lt;br/&gt;This allows the team to buy an ICBM from the Tactical Center.</English>
+        <Russian>This upgrade unlocks ICBM.&lt;br/&gt;&lt;br/&gt;This allows the team to buy an ICBM from the Tactical Center.</Russian>
+      </Key>
+	  <Key ID="STR_WF_UNITCAM_CamMode">
+        <English>Camera mode:</English>
+        <Russian>Режим камеры:</Russian>
+      </Key>
+	  <Key ID="STR_WF_UNITCAM_SquadKI">
+        <English>Squadmember (KI):</English>
+        <Russian>Подчиненный (ИИ):</Russian>
+      </Key>
+      <Key ID="STR_WF_VOTING_PopUpOnButton">
+        <English>Vote-PopUp activate</English>
+        <Russian>Показать голосование</Russian>
+      </Key>
+      <Key ID="STR_WF_VOTING_PopUpOffButton">
+        <English>Vote-PopUp disable</English>
+        <Russian>Спрятать голосование</Russian>
+      </Key>
+      <Key ID="STR_WF_VOTING_TimeLeft">
+        <English>Time</English>
+        <Russian>Время</Russian>
+      </Key>
+	  <Key ID="STR_WF_VOTING_Title">
+        <English>Commander Vote</English>
+        <Russian>Выборы командира</Russian>
+      </Key>
+      <Key ID="STR_WF_Loading">
+        <English>Receiving</English>
+        <Russian>Загрузка</Russian>
+      </Key>
+      <Key ID="STR_WF_Ammo">
+        <English>Ammunition</English>
+        <Russian>Боеприпасы</Russian>
+      </Key>
+      <Key ID="STR_WF_AmountDetails">
+        <English>Amount:</English>
+        <Russian>Кол-во:</Russian>
+      </Key>
+      <Key ID="STR_WF_Disabled">
+        <English>Disabled</English>
+        <Russian>Отключено</Russian>
+      </Key>
+      <Key ID="STR_WF_Enabled">
+        <English>Enabled</English>
+        <Russian>Включено</Russian>
+      </Key>
+      <Key ID="STR_WF_Purchase">
+        <English>Buy</English>
+        <Russian>Купить</Russian>
+      </Key>
+      <Key ID="STR_WF_Income">
+        <English>Income: $%1 ($%2/Min)</English>
+        <Russian>Наличные: $%1 ($%2/мин)</Russian>
+      </Key>
+      <Key ID="STR_WF_ICBM">
+        <English>ICBM</English>
+        <Russian>МБР</Russian>
+      </Key>
+      <Key ID="STR_WF_Price">
+        <English>Price</English>
+        <Russian>Цена</Russian>
+      </Key>
+      <Key ID="STR_WF_SupportMenu">
+        <English>Service Point</English>
+        <Russian>Меню поддержки</Russian>
+      </Key>
+      <Key ID="STR_WF_Seconds">
+        <English>Seconds</English>
+        <Russian>Секунды</Russian>
+      </Key>
+      <Key ID="STR_WF_Send">
+        <English>Send</English>
+        <Russian>Выслать</Russian>
+      </Key>
+      <Key ID="STR_WF_AircraftFactory">
+        <English>Aircraft Factory</English>
+        <Russian>Авиазавод</Russian>
+      </Key>
+      <Key ID="STR_WF_CommandCenter">
+        <English>Command Center</English>
+        <Russian>Командный центр</Russian>
+      </Key>
+      <Key ID="STR_WF_CommandCenter_RU">
+        <English>Command Center (RU)</English>
+        <Russian>Командный центр (РФ)</Russian>
+      </Key>
+      <Key ID="STR_WF_CommandCenter_USMC">
+        <English>Command Center (USMC)</English>
+        <Russian>Командный центр (США)</Russian>
+      </Key>
+      <Key ID="STR_WF_Fortification">
+        <English>Fortification</English>
+        <Russian>Укрепления</Russian>
+      </Key>      
+      <Key ID="STR_WF_Strategic">
+        <English>Strategic</English>
+        <Russian>Стратегические</Russian>
+      </Key>
+	  <Key ID="STR_WF_AutoDefense">
+        <English>Auto Defenses</English>
+        <Russian>Автозащита</Russian>
+      </Key>
+	  <Key ID="STR_WF_On">
+        <English>On</English>
+        <Russian>Вкл.</Russian>
+      </Key>
+	  <Key ID="STR_WF_Off">
+        <English>Off</English>
+        <Russian>Выкл.</Russian>
+      </Key>
+      <Key ID="STR_WF_BuildMenu">
+        <English>Construction Menu</English>
+        <Russian>Меню строительства</Russian>
+      </Key>
+      <Key ID="STR_WF_BuildMenu_Repair">
+        <English>Construction Menu (Repair Truck)</English>
+        <Russian>Меню строительства (Рем. грузовик)</Russian>
+      </Key>
+      <Key ID="STR_WF_Cargo_Eject">
+        <English>Eject Cargo / jump</English>
+        <Russian>Сбросить груз / прыжок</Russian>
+      </Key>
+      <Key ID="STR_WF_Lift">
+        <English>Attach (Vehicle)</English>
+        <Russian>Прицепить (Транспорт)</Russian>
+      </Key>
+      <Key ID="STR_WF_Lift_Detach">
+        <English>Detach (Vehicle)</English>
+        <Russian>Отцепить (Транспорт)</Russian>
+      </Key>
+      <Key ID="STR_WF_Lock">
+        <English>Lock</English>
+        <Russian>Запереть</Russian>
+      </Key>
+      <Key ID="STR_WF_Lock_MHQ">
+        <English>Lock MHQ</English>
+        <Russian>Запереть ШТАБ</Russian>
+      </Key>
+      <Key ID="STR_WF_Options">
+        <English>>> WF Menu</English>
+        <Russian>>> WF Меню</Russian>
+      </Key>
+      <Key ID="STR_WF_Push">
+        <English>Push (Vehicle)</English>
+        <Russian>Толкнуть (Транспорт)</Russian>
+      </Key>
+      <Key ID="STR_WF_Repair_Camp">
+        <English>Repair (Camp)</English>
+        <Russian>Восстановить (Бункер)</Russian>
+      </Key>
+      <Key ID="STR_WF_Repair_Camp_IsAlive">
+        <English>Information:\n\n The camp is already repaired.</English>
+        <Russian>Информация:\n\n Бункер ремонтируется.</Russian>
+      </Key>
+	  <Key ID="STR_WF_Repair_Camp_IsBeingRepaired">
+        <English>Information:\n\n The camp is being repaired.</English>
+        <Russian>Информация:\n\n Бункер будет отремонтирован.</Russian>
+      </Key>
+	  <Key ID="STR_WF_Repair_Camp_IsRepaired">
+        <English>Information:\n\n The camp is repaired.</English>
+        <Russian>Информация:\n\n Бункер отремонтирован.</Russian>
+      </Key>
+	  <Key ID="STR_WF_Repair_Camp_None">
+        <English>Information:\n\n There is no nearby camps which can be repaired.</English>
+        <Russian>Информация:\n\n Нет близлежащих бункеров, которые можно отремонтировать.</Russian>
+      </Key>
+	  <Key ID="STR_WF_Repair_Camp_NoFunds">
+        <English>Information:\n\n You are currently missing $%1. in order to repair a camp.</English>
+        <Russian>Информация:\n\n В настоящее время отсутствует $%1. для ремонта бункера.</Russian>
+      </Key>
+	  <Key ID="STR_WF_Repair_Camp_None_Dead">
+        <English>Information:\n\n None of the nearby camps are destroyed.</English>
+        <Russian>Информация:\n\n Ни один из близлежащих бункеров не разрушен.</Russian>
+      </Key>
+	  <Key ID="STR_WF_Repair_MHQ">
+        <English>Repair (MHQ)</English>
+        <Russian>Восстановить (Штаб)</Russian>
+      </Key>
+	  <Key ID="STR_WF_Repair_TruckIsDeadOrTooFar">
+        <English>Information:\n\n The repair truck is either too far or destroyed.</English>
+        <Russian>Информация:\n\n Спец. техника либо далеко либо уничтожена.</Russian>
+      </Key>
+      <Key ID="STR_WF_TaxiReverse">
+        <English>Taxi Reverse</English>
+        <Russian>Задний ход</Russian>
+      </Key>
+      <Key ID="STR_WF_Unlock">
+        <English>Unlock</English>
+        <Russian>Открыть</Russian>
+      </Key>
+      <Key ID="STR_WF_Unlock_MHQ">
+        <English>Unlock MHQ</English>
+        <Russian>Открыть ШТАБ</Russian>
+      </Key>
+      <Key ID="STR_WF_TaskTown">
+        <English>Capturing &lt;marker name='%1Depot'&gt;%1&lt;marker&gt; is essential to our team, neutralizing &lt;marker name='%1Depot'&gt;%1&lt;marker&gt; Depot will ensure it's capture.&lt;br/&gt;&lt;br/&gt;</English>
+        <Russian>Захват &lt;marker name='%1Depot'&gt;%1&lt;marker&gt; имеет большое значение для нас. Захватите бункер в центре для захвата города.&lt;br/&gt;&lt;br/&gt;</Russian>
+      </Key>
+      <Key ID="STR_WF_TaskTown_Complete">
+        <English>&lt;marker name='%1Depot'&gt;%1&lt;marker&gt; has been captured by our team, Defending &lt;marker name='%1Depot'&gt;%1&lt;marker&gt; Depot and Camps might be necessary to prevent enemies from taking it.</English>
+        <Russian>&lt;marker name='%1Depot'&gt;%1&lt;marker&gt; был захвачен вашей командой, Защищайте склад и бункеры &lt;marker name='%1Depot'&gt;%1&lt;marker&gt; для удержания стратегической точки.</Russian>
+      </Key>
+      <Key ID="STR_WF_AI">
+        <English>AI Commander</English>
+        <Russian>ИИ командир</Russian>
+      </Key>
+      <Key ID="STR_WF_Commander">
+        <English>Commander: %1</English>
+        <Russian>Командир: %1</Russian>
+      </Key>
+      <Key ID="STR_WF_Side_Resistance">
+        <English>Resistance</English>
+        <Russian>Сопротивление</Russian>
+      </Key>
+      <Key ID="STR_WF_Minefield">
+        <English>Minefield</English>
+        <Russian>Минное поле</Russian>
+      </Key>
+      <Key ID="STR_WF_ArtilleryNest">
+        <English>Earthen artillery nest</English>
+        <Russian>Окоп артиллерии</Russian>
+      </Key>
+    </Container>
+  </Package>
+</Project>

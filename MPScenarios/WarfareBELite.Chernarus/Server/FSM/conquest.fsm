@@ -1,0 +1,134 @@
+/*%FSM<COMPILE "C:\Program Files\Bohemia Interactive\Tools\FSM Editor Personal Edition\scriptedFSM.cfg, conquest">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Init",0,250,53.240814,-221.988968,143.240845,-171.989166,0.000000,"Init"};
+item1[] = {"End",1,250,-216.387955,-52.508366,-126.387947,-2.508394,0.000000,"End"};
+item2[] = {"Update_Conquest",2,4346,-82.090652,-139.314026,7.909359,-89.314034,0.000000,"Update" \n "Conquest"};
+item3[] = {"Loop",4,218,53.846153,-139.681244,143.846161,-89.681236,0.000000,"Loop"};
+item4[] = {"Gameover",4,218,-216.387955,-139.464890,-126.387947,-89.464890,0.000000,"Gameover"};
+link0[] = {0,3};
+link1[] = {2,3};
+link2[] = {2,4};
+link3[] = {3,2};
+link4[] = {4,1};
+globals[] = {0.000000,0,0,0,0,640,480,1,8,6316128,1,-348.696411,348.696136,79.849762,-328.514618,654,597,1};
+window[] = {0,-1,-1,-1,-1,882,110,1523,145,1,672};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "conquest";
+  class States
+  {
+    /*%FSM<STATE "Init">*/
+    class Init
+    {
+      name = "Init";
+      init = /*%FSM<STATEINIT""">*/"_ntime = 0;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Loop">*/
+        class Loop
+        {
+          priority = 0.000000;
+          to="Update_Conquest";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time > _ntime"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "End">*/
+    class End
+    {
+      name = "End";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Update_Conquest">*/
+    class Update_Conquest
+    {
+      name = "Update_Conquest";
+      init = /*%FSM<STATEINIT""">*/"_wt = [];" \n
+       "_et = [];" \n
+       "" \n
+       "{" \n
+       "	_sideID = _x getVariable 'sideID';" \n
+       "	if (_sideID == WestID) then {_wt = _wt + [_x]};" \n
+       "	if (_sideID == EastID) then {_et = _et + [_x]};" \n
+       "} forEach towns;" \n
+       "" \n
+       "{" \n
+       "	Private [""_hq"",""_set"",""_side"",""_sideID"",""_sideTowns"",""_sideVar""];" \n
+       "	_sideTowns = _x select 0;" \n
+       "	_sideVar = _x select 1;" \n
+       "	_side = _x select 2;" \n
+       "	_sideID = _x select 3;" \n
+       "	_set = [];" \n
+       "	" \n
+       "	if (count _sideTowns > 0) then {" \n
+       "		{" \n
+       "			_neighbors = _x getVariable ""neighbors"";" \n
+       "			if !(isNil ""_neighbors"") then {" \n
+       "				{" \n
+       "					if ((_x getVariable ""sideID"") != _sideID) then {" \n
+       "						_x setVariable [_sideVar, true];" \n
+       "						if !(_x in _set) then {_set = _set + [_x]};" \n
+       "					};" \n
+       "				} forEach _neighbors;" \n
+       "			};" \n
+       "		} forEach _sideTowns;" \n
+       "	} else {" \n
+       "		_hq = (_side) Call GetSideHQ;" \n
+       "		_nearest = [_hq, towns] Call GetClosestEntity;" \n
+       "		if !(_nearest getVariable _sideVar) then {_nearest setVariable [_sideVar, true]};" \n
+       "		_set = [_nearest];" \n
+       "	};" \n
+       "" \n
+       "	_set = towns - _set;" \n
+       "	{" \n
+       "		if (_x getVariable _sideVar) then {_x setVariable [_sideVar, false]};" \n
+       "	} forEach _set;" \n
+       "} forEach [[_wt, ""wfbe_cancap_w"", west, WESTID], [_et, ""wfbe_cancap_e"", east, EASTID]];" \n
+       "" \n
+       "_ntime = time + 10;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Gameover">*/
+        class Gameover
+        {
+          priority = 0.000000;
+          to="End";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"gameOver"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Loop">*/
+        class Loop
+        {
+          priority = 0.000000;
+          to="Update_Conquest";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time > _ntime"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="Init";
+  finalStates[] =
+  {
+    "End",
+  };
+};
+/*%FSM</COMPILE>*/

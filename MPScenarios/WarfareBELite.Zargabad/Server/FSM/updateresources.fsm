@@ -1,0 +1,203 @@
+/*%FSM<COMPILE "T:\Users\Mitradis\Desktop\FSM Editor\scriptedFSM.cfg, updateresources">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Init",0,250,66.287125,-127.850632,156.287064,-77.850792,0.000000,"Init"};
+item1[] = {"Update_Resources",2,4346,-66.836029,-56.267544,23.163887,-6.267582,0.000000,"Update" \n "Resources"};
+item2[] = {"End",1,250,-218.006683,15.304325,-128.006653,65.304314,0.000000,"End"};
+item3[] = {"Loop",4,218,65.605347,-56.267605,155.605377,-6.267574,0.000000,"Loop"};
+item4[] = {"Gameover",4,218,-216.668854,-56.267559,-126.668869,-6.267574,0.000000,"Gameover"};
+link0[] = {0,3};
+link1[] = {1,3};
+link2[] = {1,4};
+link3[] = {3,1};
+link4[] = {4,2};
+globals[] = {0.000000,0,0,0,0,640,480,1,15,6316128,1,-259.273865,259.273010,277.997955,-233.614471,673,664,1};
+window[] = {0,-1,-1,-32000,-32000,966,156,1639,156,1,691};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "updateresources";
+  class States
+  {
+    /*%FSM<STATE "Init">*/
+    class Init
+    {
+      name = "Init";
+      init = /*%FSM<STATEINIT""">*/"_lastUpdate = time;" \n
+       "_is = 'WFBE_INCOMESYSTEM' Call GetNamespace;" \n
+       "_ii = 'WFBE_INCOMEINTERVAL' Call GetNamespace;" \n
+       "_allies = 'WFBE_ALLIES' Call GetNamespace;" \n
+       "" \n
+       "_wTeams = ('WFBE_WESTTEAMS' Call GetNamespace);" \n
+       "_eTeams = ('WFBE_EASTTEAMS' Call GetNamespace);" \n
+       "_awaits = _ii;" \n
+       "" \n
+       "_incomeCoef = 0;" \n
+       "_divisor = 0;" \n
+       "_com_income_w = 0;" \n
+       "_com_income_e = 0;" \n
+       "_ply_income_w = 0;" \n
+       "_ply_income_e = 0;" \n
+       "if (_is == 3) then {_incomeCoef = 'WFBE_INC_COEFFICIENT' Call GetNamespace;_divisor = 'WFBE_INC_DIVIDE_COM' Call GetNamespace;};"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Loop">*/
+        class Loop
+        {
+          priority = 0.000000;
+          to="Update_Resources";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time - _lastUpdate > _awaits && !gameOver"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Update_Resources">*/
+    class Update_Resources
+    {
+      name = "Update_Resources";
+      init = /*%FSM<STATEINIT""">*/"_eastIncome = 0;" \n
+       "_westIncome = 0;" \n
+       "_eastSupply = 0;" \n
+       "_westSupply = 0;" \n
+       "" \n
+       "//--- Income Getter." \n
+       "{" \n
+       "	_side = (_x getVariable ""sideID"") Call GetSideFromID;" \n
+       "	if (_side == East) then {" \n
+       "		switch (_is) do {" \n
+       "			case 3: {_eastIncome = _eastIncome + ((_x getVariable ""supplyValue"")*_incomeCoef)};" \n
+       "			default {_eastIncome = _eastIncome + (_x getVariable ""supplyValue"")};" \n
+       "		};" \n
+       "		_eastSupply = _eastSupply + (_x getVariable ""supplyValue"");" \n
+       "	};" \n
+       "	if (_side == West) then {" \n
+       "		switch (_is) do {" \n
+       "			case 3: {_westIncome = _westIncome + ((_x getVariable ""supplyValue"")*_incomeCoef)};" \n
+       "			default {_westIncome = _westIncome + (_x getVariable ""supplyValue"")};" \n
+       "		};" \n
+       "		_westSupply = _westSupply + (_x getVariable ""supplyValue"");" \n
+       "	};" \n
+       "} forEach towns;" \n
+       "" \n
+       "switch (_is) do {" \n
+       "	case 3: {" \n
+       "		_ply_income_e = round(_eastIncome * (((100 - EastCommanderPercent)/100)/maxPlayers));" \n
+       "		_com_income_e = round((_eastIncome * (EastCommanderPercent/100)) / _divisor)+_ply_income_e;" \n
+       "		_ply_income_w = round(_westIncome * (((100 - WestCommanderPercent)/100)/maxPlayers));" \n
+       "		_com_income_w = round((_westIncome * (WestCommanderPercent/100)) / _divisor)+_ply_income_w;" \n
+       "	};" \n
+       "	case 4: {" \n
+       "		_ply_income_e = round(_eastIncome * (100 - EastCommanderPercent)/100);" \n
+       "		_com_income_e = round((_eastIncome - _ply_income_e)*maxPlayers) + _ply_income_e;" \n
+       "		_ply_income_w = round(_westIncome * (100 - WestCommanderPercent)/100);" \n
+       "		_com_income_w = round((_westIncome - _ply_income_w)*maxPlayers) + _ply_income_w;" \n
+       "	};" \n
+       "	default {" \n
+       "		_ply_income_e = round(_eastIncome / _is);" \n
+       "		_com_income_e = _ply_income_e;" \n
+       "		_ply_income_w = round(_westIncome / _is);" \n
+       "		_com_income_w = _ply_income_w;" \n
+       "	};" \n
+       "};" \n
+       "" \n
+       "//---- East Income." \n
+       "if (_eastIncome > 0) then {" \n
+       "	if !(paramMoneyOnly) then {[east, _eastSupply] Call ChangeSideSupply};" \n
+       "	" \n
+       "	_comTeam = (east) Call GetCommanderTeam;" \n
+       "	if (isNull _comTeam) then {_comTeam = grpNull};" \n
+       "" \n
+       "	{" \n
+       "		if (!isNil '_x' && isPlayer (leader _x)) then {" \n
+       "			_income = 0;" \n
+       "			switch (_is) do {" \n
+       "				case 3: {_income = if (_comTeam != _x) then {_ply_income_e} else {_com_income_e}};" \n
+       "				case 4: {_income = if (_comTeam != _x) then {_ply_income_e} else {_com_income_e}};" \n
+       "				default {_income = _ply_income_e};" \n
+       "			};" \n
+       "			" \n
+       "			if (_income > 0) then {[_x,_income] Call ChangeTeamFunds};" \n
+       "		};" \n
+       "	} forEach _eTeams;" \n
+       "" \n
+       "	if (paramAIcom && isNull((east) Call GetCommanderTeam)) then {" \n
+       "		[east, _com_income_e] Call ChangeAICommanderFunds;" \n
+       "	};" \n
+       "};" \n
+       "" \n
+       "//---- West Income." \n
+       "if (_westIncome > 0) then {" \n
+       "	if !(paramMoneyOnly) then {[west, _westSupply] Call ChangeSideSupply};" \n
+       "	" \n
+       "	_comTeam = (west) Call GetCommanderTeam;" \n
+       "	if (isNull _comTeam) then {_comTeam = grpNull};" \n
+       "" \n
+       "	{" \n
+       "		if (!isNil '_x' && isPlayer (leader _x)) then {" \n
+       "			_income = 0;" \n
+       "			switch (_is) do {" \n
+       "				case 3: {_income = if (_comTeam != _x) then {_ply_income_w} else {_com_income_w}};" \n
+       "				case 4: {_income = if (_comTeam != _x) then {_ply_income_w} else {_com_income_w}};" \n
+       "				default {_income = _ply_income_w};" \n
+       "			};" \n
+       "			" \n
+       "			if (_income > 0) then {[_x,_income] Call ChangeTeamFunds};" \n
+       "		};" \n
+       "	} forEach _wTeams;" \n
+       "" \n
+       "	if (paramAIcom && isNull((west) Call GetCommanderTeam)) then {" \n
+       "		[west, _com_income_w] Call ChangeAICommanderFunds;" \n
+       "	};" \n
+       "};" \n
+       "" \n
+       "_awaits = (_ii) Call GetSleepFPS;" \n
+       "_lastUpdate = time;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Gameover">*/
+        class Gameover
+        {
+          priority = 0.000000;
+          to="End";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"gameOver"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Loop">*/
+        class Loop
+        {
+          priority = 0.000000;
+          to="Update_Resources";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time - _lastUpdate > _awaits && !gameOver"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "End">*/
+    class End
+    {
+      name = "End";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="Init";
+  finalStates[] =
+  {
+    "End",
+  };
+};
+/*%FSM</COMPILE>*/

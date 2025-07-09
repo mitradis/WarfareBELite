@@ -1,0 +1,1 @@
+Format ["WFBE_%1_AICommanderFunds",_this] Call GetNamespace

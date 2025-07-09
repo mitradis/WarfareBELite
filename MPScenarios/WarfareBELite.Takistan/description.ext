@@ -1,0 +1,24 @@
+//--- Define which 'part' of the game to run.
+#include "version.sqf"
+
+//--- Header contains the mission tite.
+#include "Rsc\Header.hpp"
+
+//--- Styles
+#include "Rsc\Styles.hpp"
+
+//--- Parameters contains the mission parameters.
+#include "Rsc\Parameters.hpp"
+//--- Ressource contains the dialog ressources.
+#include "Rsc\Ressources.hpp"
+//--- Dialogs contain all the interfaces (dialogs).
+#include "Rsc\Dialogs.hpp"
+//--- Titles contains the titles (overlay).
+#include "Rsc\Titles.hpp"
+//--- Sounds contains all missions related sounds.
+#include "Rsc\Sounds.hpp"
+
+//--- Include Identities (OA/CO Only).
+#ifndef VANILLA
+	#include "Rsc\Identities.hpp"
+#endif

@@ -1,0 +1,4788 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters2",
+		"chernarus",
+		"ca_modules_functions",
+		"CAWheeled2_BTR90",
+		"ca_highcommand",
+		"warfare2vehicles",
+		"CAWheeled2_LAV25"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"ca_modules_functions",
+		"ca_highcommand",
+		"CAWheeled2_LAV25",
+		"CAWheeled2_BTR90",
+		"chernarus"
+	};
+	randomSeed=10034581;
+	class Intel
+	{
+		briefingName="@STR_WF_MISSON_NAME_Chernarus";
+		briefingDescription="V2.072 Benny Edition";
+		resistanceWest=0;
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+	class Groups
+	{
+		items=119;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={46.580727,88.453491,1983.8401};
+					azimut=170;
+					id=0;
+					side="WEST";
+					vehicle="USMC_SoldierS";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot1";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={48.360161,88.423531,1984.1565};
+					azimut=170;
+					id=1;
+					side="WEST";
+					vehicle="USMC_SoldierS";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot2";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={50.206917,88.410774,1984.5525};
+					azimut=170;
+					id=2;
+					side="WEST";
+					vehicle="FR_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot3";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={51.979759,88.380814,1984.8374};
+					azimut=170;
+					id=3;
+					side="WEST";
+					vehicle="FR_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot4";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={53.719704,88.370369,1985.1665};
+					azimut=170;
+					id=4;
+					side="WEST";
+					vehicle="USMC_SoldierS_Sniper";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot5";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={55.542763,88.376602,1985.5566};
+					azimut=170;
+					id=5;
+					side="WEST";
+					vehicle="USMC_SoldierS_Sniper";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot6";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item6
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={57.448616,88.352303,1985.7773};
+					azimut=170;
+					id=6;
+					side="WEST";
+					vehicle="USMC_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot7";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item7
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={59.318016,88.341408,1986.062};
+					azimut=170;
+					id=7;
+					side="WEST";
+					vehicle="USMC_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot8";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item8
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={61.133537,88.341537,1986.3472};
+					azimut=170;
+					id=8;
+					side="WEST";
+					vehicle="USMC_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot9";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item9
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={62.847878,88.359978,1986.6304};
+					azimut=170;
+					id=9;
+					side="WEST";
+					vehicle="USMC_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot10";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item10
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={46.340477,88.774101,1985.5303};
+					azimut=170;
+					id=10;
+					side="WEST";
+					vehicle="FR_Commander";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot11";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item11
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={48.05439,88.738846,1985.7808};
+					azimut=170;
+					id=11;
+					side="WEST";
+					vehicle="FR_Marksman";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot12";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item12
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={49.748238,88.721146,1986.1118};
+					azimut=170;
+					id=12;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot13";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item13
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={51.433739,88.682907,1986.3298};
+					azimut=170;
+					id=13;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot14";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item14
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={53.239204,88.669853,1986.6821};
+					azimut=170;
+					id=14;
+					side="WEST";
+					vehicle="USMC_Soldier_Medic";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot15";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item15
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={55.258842,88.664871,1987.0273};
+					azimut=170;
+					id=15;
+					side="WEST";
+					vehicle="USMC_Soldier_Medic";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="WestSlot16";
+					synchronizations[]={43};
+				};
+			};
+		};
+		class Item16
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={136.16287,97.228424,2392.2485};
+					azimut=350;
+					id=18;
+					side="EAST";
+					vehicle="RUS_Soldier1";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot1";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item17
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={137.892,97.191071,2392.5479};
+					azimut=350;
+					id=19;
+					side="EAST";
+					vehicle="RUS_Soldier1";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot2";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item18
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={139.51544,97.151634,2392.8552};
+					azimut=350;
+					id=20;
+					side="EAST";
+					vehicle="RUS_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot3";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item19
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={141.26375,97.110191,2393.1409};
+					azimut=350;
+					id=21;
+					side="EAST";
+					vehicle="RUS_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot4";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item20
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={142.98808,97.07534,2393.4343};
+					azimut=350;
+					id=22;
+					side="EAST";
+					vehicle="RU_Soldier_Sniper";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot5";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item21
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={144.80359,97.038139,2393.7654};
+					azimut=350;
+					id=23;
+					side="EAST";
+					vehicle="RU_Soldier_Sniper";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot6";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item22
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={146.68231,97.00106,2394.0256};
+					azimut=350;
+					id=24;
+					side="EAST";
+					vehicle="MVD_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot7";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item23
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={148.59949,96.966621,2394.322};
+					azimut=350;
+					id=25;
+					side="EAST";
+					vehicle="MVD_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot8";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item24
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={150.43436,96.949203,2394.593};
+					azimut=350;
+					id=26;
+					side="EAST";
+					vehicle="MVD_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot9";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item25
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={152.13812,96.931,2394.8806};
+					azimut=350;
+					id=27;
+					side="EAST";
+					vehicle="MVD_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot10";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item26
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={136.31149,97.235992,2390.7534};
+					azimut=350;
+					id=28;
+					side="EAST";
+					vehicle="RU_Soldier_Officer";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot11";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item27
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={138.0491,97.199097,2390.9878};
+					azimut=350;
+					id=29;
+					side="EAST";
+					vehicle="RUS_Soldier_Marksman";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot12";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item28
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={139.70789,97.164024,2391.2722};
+					azimut=350;
+					id=30;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot13";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item29
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={141.39172,97.128647,2391.5269};
+					azimut=350;
+					id=31;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot14";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item30
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={143.21484,97.09024,2391.842};
+					azimut=350;
+					id=32;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot15";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item31
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={145.15933,97.055107,2392.198};
+					azimut=350;
+					id=33;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="EastSlot16";
+					synchronizations[]={44};
+				};
+			};
+		};
+		class Item32
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10407.625,236.73991,8670.7676};
+					id=34;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item33
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={330.64386,614.43933,15052.327};
+					id=35;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="RCoin";
+				};
+			};
+		};
+		class Item34
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={315.20343,606.34985,15052.327};
+					id=36;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="MCoin";
+				};
+			};
+		};
+		class Item35
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={345.0423,626.06793,15065.778};
+					id=37;
+					side="LOGIC";
+					vehicle="FunctionsManager";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item36
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={344.90753,628.84863,15078.493};
+					id=38;
+					side="LOGIC";
+					vehicle="HighCommand";
+					leader=1;
+					skill=0.60000002;
+					text="HC";
+					init="this SetVariable [""addAllGroups"",false];";
+				};
+			};
+		};
+		class Item37
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2123.2417,171.64247,4111.9961};
+					id=39;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item38
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={301.03888,599.50195,15052.739};
+					id=295;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="WF_Logic";
+					init="this setVariable [""totalTowns"",43];this setVariable [""Towns_RemovedXSmall"",[""Sosnovka"",""Zelenogorsk"",""Dolina"",""StarySobor"",""Myshkino"",""Chernogorsk"",""Dubrovka"",""Pogorevka"",""Bor"",""Staroye"",""Pulkovo"",""Khelm"",""Kamyshovo"",""Pavlovo"",""Nadezhdino"",""Mogilevka"",""Vyshnoye"",""Berezino"",""Krasnostav"",""Gorka"",""Elektrozavodsk"",""Msta"",""Komarovo"",""Petrovka"",""Shakhovka"",""Prigorodki"",""Olsha"",""Orlovets"",""Nizhnoye"",""Solnichniy"",""Tulga"",""Kozlovka"",""Polana"",""Kamenka"",""Gvozdno"",""NovySobor"",""Pusta"",""Guglovo""]];this setVariable [""Towns_RemovedSmall"",[""Sosnovka"",""Zelenogorsk"",""Dolina"",""StarySobor"",""Lopatino"",""Myshkino"",""Chernogorsk"",""Pogorevka"",""Bor"",""Kabanino"",""Staroye"",""Pulkovo"",""Kamyshovo"",""Vybor"",""Pavlovo"",""Nadezhdino"",""Grishino"",""Mogilevka"",""Vyshnoye"",""Elektrozavodsk"",""Msta"",""Komarovo"",""Petrovka"",""Shakhovka"",""Prigorodki"",""Solnichniy"",""Tulga"",""Kozlovka"",""Pustoshka"",""Kamenka"",""NovySobor"",""Pusta"",""Guglovo""]];this setVariable [""Towns_RemovedMedium"",[""Dolina"",""Dubrovka"",""Bor"",""Staroye"",""Elektrozavodsk"",""Berezino"",""Krasnostav"",""Pulkovo"",""Khelm"",""Kamyshovo"",""Vyshnoye"",""Gorka"",""Msta"",""Petrovka"",""Shakhovka"",""Prigorodki"",""Olsha"",""Orlovets"",""Nizhnoye"",""Solnichniy"",""Tulga"",""Polana"",""Gvozdno"",""NovySobor"",""Pusta"",""Guglovo"",""Sosnovka""]];this setVariable [""Towns_RemovedLarge"",[""Bor"",""Pulkovo"",""Khelm"",""Msta"",""Shakhovka"",""Prigorodki"",""Olsha"",""Orlovets"",""Nizhnoye"",""Tulga"",""Kozlovka"",""Pustoshka"",""Kamenka"",""NovySobor"",""Sosnovka""]];nullReturn = [this] ExecVM ""Common\Init\Init_TownMode.sqf"";";
+				};
+			};
+		};
+		class Item39
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={56.71888,86.637604,1976.5662};
+					azimut=170;
+					id=43;
+					side="LOGIC";
+					vehicle="LocationLogicOwnerWest";
+					leader=1;
+					skill=0.60000002;
+					text="WFBE_L_BLU";
+					synchronizations[]={0,10,11,1,2,12,13,3,4,14,15,5,6,7,8,9};
+				};
+			};
+		};
+		class Item40
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={141.73245,96.947502,2402.8496};
+					azimut=350;
+					id=44;
+					side="LOGIC";
+					vehicle="LocationLogicOwnerEast";
+					leader=1;
+					skill=0.60000002;
+					text="WFBE_L_OPF";
+					synchronizations[]={18,28,29,19,20,30,31,21,22,32,23,33,24,25,26,27};
+				};
+			};
+		};
+		class Item41
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5050.1968,9.0771523,2413.2861};
+					azimut=30;
+					id=45;
+					side="LOGIC";
+					vehicle="LocationLogicAirport";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item42
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4479.3252,339,10618.404};
+					azimut=150;
+					id=46;
+					side="LOGIC";
+					vehicle="LocationLogicAirport";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item43
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={11826.109,159,12701.589};
+					azimut=200;
+					id=47;
+					side="LOGIC";
+					vehicle="LocationLogicAirport";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item44
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3352.1865,345.87961,7023.0698};
+					azimut=100;
+					id=48;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item45
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4080.3442,294.1601,7225.2153};
+					id=49;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item46
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5120.0957,301.3248,7187.7388};
+					id=50;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item47
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5717.103,72.757805,2537.1467};
+					id=51;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item48
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5274.6675,184.00052,3935.7146};
+					id=52;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item49
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4199.6943,11.50387,2858.8215};
+					id=53;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+					init="this setVariable [""wfbe_default"", west]; this setVariable [""wfbe_spawn"", ""south""];";
+				};
+			};
+		};
+		class Item50
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6681.9028,225.5379,4666.314};
+					id=54;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item51
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3727.7646,266.61993,5287.5522};
+					azimut=40;
+					id=55;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item52
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10303.097,272.26117,5887.1948};
+					azimut=260;
+					id=56;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+					init="this setVariable [""wfbe_default"", resistance];";
+				};
+			};
+		};
+		class Item53
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={11259.73,251.59467,7834.9619};
+					id=57;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item54
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8399.9824,318.15866,6180.54};
+					id=58;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item55
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2789.8455,122.61729,2902.6819};
+					azimut=180;
+					id=59;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item56
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7782.2788,422.26593,8839.6533};
+					id=60;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item57
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7207.4204,385.60406,9654.6406};
+					azimut=270;
+					id=61;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item58
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={12126.574,27.435495,9961.9463};
+					id=62;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item59
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10945.609,227.15373,11481.33};
+					azimut=270;
+					id=63;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+					init="this setVariable [""wfbe_default"", east]; this setVariable [""wfbe_spawn"", ""north""];";
+				};
+			};
+		};
+		class Item60
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9395.3242,242.80464,11262.36};
+					azimut=180;
+					id=64;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item61
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5945.6401,335.6929,9198.7715};
+					id=65;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item62
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1920.6399,285.27518,9128.6055};
+					azimut=90;
+					id=66;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item63
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3774.0676,358.02399,10309.091};
+					azimut=180;
+					id=67;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item64
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4615.145,302.3064,5914.6816};
+					azimut=180;
+					id=68;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item65
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={1749.7306,143.74835,3922.0415};
+					azimut=250;
+					special="NONE";
+					id=69;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Pavlovo";
+					init="nullReturn = [this,""Pavlovo"",""+"",25,50] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={70,71,77,76};
+				};
+				class Item1
+				{
+					position[]={1761.3019,153.94786,4062.3201};
+					azimut=305;
+					special="NONE";
+					id=71;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={69};
+				};
+				class Item2
+				{
+					position[]={1720.8535,146.32156,3771.957};
+					azimut=262;
+					special="NONE";
+					id=70;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={69};
+				};
+				class Item3
+				{
+					position[]={1745.7378,154.08238,4076.1628};
+					azimut=35;
+					special="NONE";
+					id=77;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={69};
+				};
+				class Item4
+				{
+					position[]={1723.858,143.756,3755.886};
+					azimut=180;
+					special="NONE";
+					id=76;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={69};
+				};
+			};
+		};
+		class Item66
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={3455.3015,186.13632,3908.8635};
+					azimut=290;
+					special="NONE";
+					id=72;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Bor";
+					init="nullReturn = [this,""Bor"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={73,78};
+				};
+				class Item1
+				{
+					position[]={3575.7932,190.44315,3842.3838};
+					azimut=50;
+					special="NONE";
+					id=73;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={72};
+				};
+				class Item2
+				{
+					position[]={3586.2253,194.52013,3864.0178};
+					azimut=90;
+					special="NONE";
+					id=78;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={72};
+				};
+			};
+		};
+		class Item67
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={3538.8147,7.6658812,2488.4231};
+					azimut=270;
+					special="NONE";
+					id=79;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Komarovo";
+					init="nullReturn = [this,""Komarovo"",""+"",30,60] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={80,81,82,83};
+				};
+				class Item1
+				{
+					position[]={3433.467,6.2620535,2414.6968};
+					azimut=160;
+					special="NONE";
+					id=81;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={79};
+				};
+				class Item2
+				{
+					position[]={3734.5464,6.2790775,2479.5024};
+					azimut=355;
+					special="NONE";
+					id=80;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={79};
+				};
+				class Item3
+				{
+					position[]={3415.7114,8.0073566,2405.052};
+					azimut=235;
+					special="NONE";
+					id=82;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={79};
+				};
+				class Item4
+				{
+					position[]={3738.9126,6.2970853,2503.2734};
+					azimut=70;
+					special="NONE";
+					id=83;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={79};
+				};
+				class Item5
+				{
+					position[]={3452.1318,17.433207,2530.2375};
+					azimut=275;
+					special="NONE";
+					id=305;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+				};
+			};
+		};
+		class Item68
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={2687.9961,208.93007,5426.3872};
+					azimut=292;
+					special="NONE";
+					id=84;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Zelenogorsk";
+					init="nullReturn = [this,""Zelenogorsk"",""+"",60,120] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={89,87,86,88,85,90,92,91};
+				};
+				class Item1
+				{
+					position[]={2673.0098,203.18378,5207.2144};
+					azimut=235;
+					special="NONE";
+					id=86;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={84};
+				};
+				class Item2
+				{
+					position[]={2986.0161,232.47777,5527.2451};
+					azimut=290;
+					special="NONE";
+					id=85;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={84};
+				};
+				class Item3
+				{
+					position[]={2669.6189,198.34894,5187.083};
+					azimut=140;
+					special="NONE";
+					id=87;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={84};
+				};
+				class Item4
+				{
+					position[]={2956.5706,231.44083,5488.4185};
+					azimut=70;
+					special="NONE";
+					id=88;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={84};
+				};
+				class Item5
+				{
+					position[]={2475.917,213.12973,5513.8354};
+					azimut=155;
+					special="NONE";
+					id=89;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={84};
+				};
+				class Item6
+				{
+					position[]={2860.8696,236.71057,5640.9946};
+					azimut=225;
+					special="NONE";
+					id=90;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={84};
+				};
+				class Item7
+				{
+					position[]={2659.8025,223.35751,5623.6792};
+					azimut=100;
+					special="NONE";
+					id=91;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={84};
+				};
+				class Item8
+				{
+					position[]={2680.2854,223.388,5621.3311};
+					azimut=10;
+					special="NONE";
+					id=92;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={84};
+				};
+			};
+		};
+		class Item69
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={6838.9067,6.1019988,2427.751};
+					azimut=230;
+					special="NONE";
+					id=93;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Chernogorsk";
+					init="nullReturn = [this,""Chernogorsk"",""+"",60,120] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={97,96,95,94,98,100,99,101};
+				};
+				class Item1
+				{
+					position[]={6583.7305,6.1458459,2451.4163};
+					azimut=220;
+					special="NONE";
+					id=95;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={93};
+				};
+				class Item2
+				{
+					position[]={7011.6904,6.0127869,2393.9092};
+					azimut=140;
+					special="NONE";
+					id=94;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={93};
+				};
+				class Item3
+				{
+					position[]={6576.0825,6,2457.4854};
+					azimut=250;
+					special="NONE";
+					id=96;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={93};
+				};
+				class Item4
+				{
+					position[]={7021.8022,6.0127869,2405.145};
+					azimut=55;
+					special="NONE";
+					id=97;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={93};
+				};
+				class Item5
+				{
+					position[]={6969.6938,6,2161.6597};
+					azimut=230;
+					special="NONE";
+					id=98;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AA']];";
+					synchronizations[]={93};
+				};
+				class Item6
+				{
+					position[]={6791.5317,6,2647.936};
+					azimut=135;
+					special="NONE";
+					id=99;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={93};
+				};
+				class Item7
+				{
+					position[]={6798.8511,6,2656.6138};
+					azimut=310;
+					special="NONE";
+					id=100;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={93};
+				};
+				class Item8
+				{
+					position[]={6696.5811,6,2549.1372};
+					azimut=45;
+					special="NONE";
+					id=101;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={93};
+				};
+			};
+		};
+		class Item70
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={4455.8267,231.13046,4591.4521};
+					azimut=35;
+					special="NONE";
+					id=102;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Kozlovka";
+					init="nullReturn = [this,""Kozlovka"",""+"",25,50] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={103,104,106,105};
+				};
+				class Item1
+				{
+					position[]={4291.4087,244.64505,4799.0571};
+					azimut=225;
+					special="NONE";
+					id=104;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={102};
+				};
+				class Item2
+				{
+					position[]={4559.3506,222.65326,4396.937};
+					azimut=45;
+					special="NONE";
+					id=103;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={102};
+				};
+				class Item3
+				{
+					position[]={4260.9414,245.13965,4805.5044};
+					azimut=315;
+					special="NONE";
+					id=105;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={102};
+				};
+				class Item4
+				{
+					position[]={4568.9868,222.59196,4386.3301};
+					azimut=135;
+					special="NONE";
+					id=106;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={102};
+				};
+			};
+		};
+		class Item71
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={5923.5879,147.43602,4727.7974};
+					azimut=80;
+					special="NONE";
+					id=107;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Nadezhdino";
+					init="nullReturn = [this,""Nadezhdino"",""+"",25,50] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={108,109,110,111};
+				};
+				class Item1
+				{
+					position[]={5859.2993,140.36223,4611.3281};
+					azimut=100;
+					special="NONE";
+					id=109;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={107};
+				};
+				class Item2
+				{
+					position[]={5854.2529,138.26443,4943.3447};
+					azimut=65;
+					special="NONE";
+					id=108;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={107};
+				};
+				class Item3
+				{
+					position[]={5879.0483,143.38863,4957.4688};
+					azimut=330;
+					special="NONE";
+					id=110;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={107};
+				};
+				class Item4
+				{
+					position[]={5855.5659,140.81935,4599.7427};
+					azimut=200;
+					special="NONE";
+					id=111;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={107};
+				};
+			};
+		};
+		class Item72
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={8124.9624,8.4787178,3303.8645};
+					azimut=100;
+					special="NONE";
+					id=112;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Prigorodki";
+					init="nullReturn = [this,""Prigorodki"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={113,114};
+				};
+				class Item1
+				{
+					position[]={8160.3218,8.8432541,3135.6792};
+					azimut=202;
+					special="NONE";
+					id=113;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={112};
+				};
+				class Item2
+				{
+					position[]={8150.0586,6.1646752,3112.6494};
+					azimut=110;
+					special="NONE";
+					id=114;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={112};
+				};
+			};
+		};
+		class Item73
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={9113.291,223.98938,3808.4043};
+					azimut=25;
+					special="NONE";
+					id=115;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Pusta";
+					init="nullReturn = [this,""Pusta"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={116,117};
+				};
+				class Item1
+				{
+					position[]={9182.4795,223.49008,3920.8494};
+					azimut=150;
+					special="NONE";
+					id=116;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={115};
+				};
+				class Item2
+				{
+					position[]={9171.7656,223.91447,3892.9795};
+					azimut=320;
+					special="NONE";
+					id=117;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={115};
+				};
+			};
+		};
+		class Item74
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10264.636,7.5245395,1975.0179};
+					azimut=5;
+					special="NONE";
+					id=118;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Elektrozavodsk";
+					init="nullReturn = [this,""Elektrozavodsk"",""+"",60,120] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={122,121,120,119,124,123,125};
+				};
+				class Item1
+				{
+					position[]={9924.2598,6.4601111,2032.1815};
+					azimut=345;
+					special="NONE";
+					id=120;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={118};
+				};
+				class Item2
+				{
+					position[]={10584.794,5.9921927,2176.6445};
+					azimut=160;
+					special="NONE";
+					id=119;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={118};
+				};
+				class Item3
+				{
+					position[]={9944.0205,6.0127869,1634.0211};
+					azimut=225;
+					special="NONE";
+					id=121;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AA']];";
+					synchronizations[]={118};
+				};
+				class Item4
+				{
+					position[]={9905.7842,6.4889107,2027.3934};
+					azimut=260;
+					special="NONE";
+					id=122;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={118};
+				};
+				class Item5
+				{
+					position[]={10398.755,5.9580779,2256.0583};
+					azimut=125;
+					special="NONE";
+					id=123;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={118};
+				};
+				class Item6
+				{
+					position[]={10406.81,8.7571907,2266.1018};
+					azimut=50;
+					special="NONE";
+					id=124;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={118};
+				};
+				class Item7
+				{
+					position[]={10598.898,6,2182.5508};
+					azimut=65;
+					special="NONE";
+					id=125;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={118};
+				};
+				class Item8
+				{
+					position[]={9990.7646,26.231066,2244.5803};
+					azimut=165;
+					special="NONE";
+					id=309;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+				};
+			};
+		};
+		class Item75
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={11960.671,6.1000223,3522.2214};
+					azimut=80;
+					special="NONE";
+					id=126;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Kamyshovo";
+					init="nullReturn = [this,""Kamyshovo"",""+"",20,40] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={127,128,130,129};
+				};
+				class Item1
+				{
+					position[]={11878.629,6.1872129,3472.4709};
+					azimut=170;
+					special="NONE";
+					id=128;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={126};
+				};
+				class Item2
+				{
+					position[]={12164.498,8.5046282,3536.6724};
+					azimut=2;
+					special="NONE";
+					id=127;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={126};
+				};
+				class Item3
+				{
+					position[]={11863.938,6.215539,3469.4114};
+					azimut=260;
+					special="NONE";
+					id=130;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={126};
+				};
+				class Item4
+				{
+					position[]={12274.691,5.6228204,3529.8638};
+					azimut=85;
+					special="NONE";
+					id=129;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={126};
+				};
+				class Item5
+				{
+					position[]={12051.435,4.9214463,3644.3069};
+					azimut=345;
+					special="NONE";
+					id=306;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+				};
+			};
+		};
+		class Item76
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={12789.489,167.65218,4470.6167};
+					azimut=100;
+					special="NONE";
+					id=131;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Tulga";
+					init="nullReturn = [this,""Tulga"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={132,133};
+				};
+				class Item1
+				{
+					position[]={12643.215,156.52415,4480.6616};
+					azimut=20;
+					special="NONE";
+					id=132;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={131};
+				};
+				class Item2
+				{
+					position[]={12655.467,156.83014,4493.3672};
+					azimut=300;
+					special="NONE";
+					id=133;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={131};
+				};
+			};
+		};
+		class Item77
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={11404.048,254.23373,5519.3188};
+					azimut=40;
+					special="NONE";
+					id=134;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Msta";
+					init="nullReturn = [this,""Msta"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={135,136};
+				};
+				class Item1
+				{
+					position[]={11682.932,218.49355,5495.0371};
+					azimut=340;
+					special="NONE";
+					id=135;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={134};
+				};
+				class Item2
+				{
+					position[]={11670.878,219.01082,5506.9966};
+					azimut=70;
+					special="NONE";
+					id=136;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={134};
+				};
+			};
+		};
+		class Item78
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={10070.614,245.12109,5439.6211};
+					azimut=90;
+					special="NONE";
+					id=137;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Staroye";
+					init="nullReturn = [this,""Staroye"",""+"",40,80] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={138,139,140,141,142};
+				};
+				class Item1
+				{
+					position[]={10015.029,262.41705,5696.9966};
+					azimut=230;
+					special="NONE";
+					id=139;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={137};
+				};
+				class Item2
+				{
+					position[]={10148.563,235.66776,5279.7866};
+					azimut=270;
+					special="NONE";
+					id=138;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={137};
+				};
+				class Item3
+				{
+					position[]={10129.243,235.70572,5281.1299};
+					azimut=175;
+					special="NONE";
+					id=140;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={137};
+				};
+				class Item4
+				{
+					position[]={9999.291,262.52917,5685.7642};
+					azimut=325;
+					special="NONE";
+					id=141;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={137};
+				};
+				class Item5
+				{
+					position[]={10063.391,256.57968,5691.7515};
+					azimut=40;
+					special="NONE";
+					id=142;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={137};
+				};
+			};
+		};
+		class Item79
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=8;
+				class Item0
+				{
+					position[]={7484.7207,215.74457,5192.4448};
+					azimut=275;
+					special="NONE";
+					id=143;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Mogilevka";
+					init="nullReturn = [this,""Mogilevka"",""+"",40,80] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={144,145,146,147,148,149,150};
+				};
+				class Item1
+				{
+					position[]={7388.9434,252.53949,5416.0752};
+					azimut=205;
+					special="NONE";
+					id=145;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={143};
+				};
+				class Item2
+				{
+					position[]={7495.1685,211.71548,4963.9834};
+					azimut=105;
+					special="NONE";
+					id=144;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={143};
+				};
+				class Item3
+				{
+					position[]={7556.2832,202.20409,4976.7202};
+					azimut=130;
+					special="NONE";
+					id=146;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={143};
+				};
+				class Item4
+				{
+					position[]={7750.7285,226.8054,5265.689};
+					azimut=45;
+					special="NONE";
+					id=147;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={143};
+				};
+				class Item5
+				{
+					position[]={7380.4922,249.78481,5401.1104};
+					azimut=290;
+					special="NONE";
+					id=148;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={143};
+				};
+				class Item6
+				{
+					position[]={7505.0757,211.45909,4945.9497};
+					azimut=195;
+					special="NONE";
+					id=149;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={143};
+				};
+				class Item7
+				{
+					position[]={7258.9214,231.49858,5249.5786};
+					azimut=130;
+					special="NONE";
+					id=310;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+				};
+			};
+		};
+		class Item80
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7735.3843,226.78418,5254.9072};
+					azimut=155;
+					special="NONE";
+					id=150;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					leader=1;
+					skill=0.60000002;
+					synchronizations[]={143};
+				};
+			};
+		};
+		class Item81
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={9731.0029,207.75691,6511.7661};
+					azimut=220;
+					special="NONE";
+					id=151;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Shakhovka";
+					init="nullReturn = [this,""Shakhovka"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={152,153};
+				};
+				class Item1
+				{
+					position[]={9576.377,201.22452,6649.3457};
+					azimut=250;
+					special="NONE";
+					id=152;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={151};
+				};
+				class Item2
+				{
+					position[]={9550.5049,203.14403,6639.8979};
+					azimut=315;
+					special="NONE";
+					id=153;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={151};
+				};
+			};
+		};
+		class Item82
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={8357.79,359.3317,6695.7188};
+					azimut=245;
+					special="NONE";
+					id=154;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Guglovo";
+					init="nullReturn = [this,""Guglovo"",""+"",30,60] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={155,156,158,157,159};
+				};
+				class Item1
+				{
+					position[]={8263.877,357.2485,6834.4824};
+					azimut=55;
+					special="NONE";
+					id=156;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={154};
+				};
+				class Item2
+				{
+					position[]={8583.1777,353.51498,6636.9683};
+					azimut=212;
+					special="NONE";
+					id=155;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={154};
+				};
+				class Item3
+				{
+					position[]={8250.7314,357.14423,6850.5776};
+					azimut=325;
+					special="NONE";
+					id=158;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={154};
+				};
+				class Item4
+				{
+					position[]={8561.6709,354.60809,6626.8066};
+					azimut=125;
+					special="NONE";
+					id=157;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={154};
+				};
+				class Item5
+				{
+					position[]={8249.0732,364.51184,6716.5034};
+					azimut=50;
+					special="NONE";
+					id=159;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={154};
+				};
+			};
+		};
+		class Item83
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={7131.1904,293.7522,7763.8325};
+					azimut=260;
+					special="NONE";
+					id=160;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="NovySobor";
+					init="nullReturn = [this,""Novy Sobor"",""+"",30,60] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={161,162,163,164,165,166};
+				};
+				class Item1
+				{
+					position[]={7135.8413,277.38971,7465.8486};
+					azimut=260;
+					special="NONE";
+					id=162;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={160};
+				};
+				class Item2
+				{
+					position[]={6934.7646,294.05347,7885.2144};
+					azimut=255;
+					special="NONE";
+					id=161;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={160};
+				};
+				class Item3
+				{
+					position[]={6914.9536,294.16254,7886.9126};
+					special="NONE";
+					id=163;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={160};
+				};
+				class Item4
+				{
+					position[]={7310.5874,313.64548,7850.6401};
+					azimut=105;
+					special="NONE";
+					id=164;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={160};
+				};
+				class Item5
+				{
+					position[]={7028.5264,293.98999,7659.3623};
+					azimut=255;
+					special="NONE";
+					id=165;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={160};
+				};
+				class Item6
+				{
+					position[]={7111.6904,278.43182,7470.1333};
+					azimut=175;
+					special="NONE";
+					id=166;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={160};
+				};
+			};
+		};
+		class Item84
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={6529.6606,321.98227,6157.3745};
+					azimut=140;
+					special="NONE";
+					id=167;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Vyshnoye";
+					init="nullReturn = [this,""Vyshnoye"",""+"",25,50] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={168,169,171,170};
+				};
+				class Item1
+				{
+					position[]={6395.3896,322.11145,6207.6699};
+					azimut=60;
+					special="NONE";
+					id=169;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={167};
+				};
+				class Item2
+				{
+					position[]={6592.7593,321.88,5994.3545};
+					azimut=60;
+					special="NONE";
+					id=168;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={167};
+				};
+				class Item3
+				{
+					position[]={6411.5063,322.08316,6216.4204};
+					azimut=315;
+					special="NONE";
+					id=171;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={167};
+				};
+				class Item4
+				{
+					position[]={6599.7529,321.92908,5979.7437};
+					azimut=165;
+					special="NONE";
+					id=170;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={167};
+				};
+			};
+		};
+		class Item85
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={5007.4253,317.73425,5598.4653};
+					azimut=40;
+					special="NONE";
+					id=172;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Pulkovo";
+					init="nullReturn = [this,""Pulkovo"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={173,174};
+				};
+				class Item1
+				{
+					position[]={4818.0996,322.11563,5660.0796};
+					azimut=25;
+					special="NONE";
+					id=173;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={172};
+				};
+				class Item2
+				{
+					position[]={4811.1689,322.06488,5680.2778};
+					azimut=285;
+					special="NONE";
+					id=174;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={172};
+				};
+			};
+		};
+		class Item86
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={4522.9072,293.66922,6319.0972};
+					azimut=160;
+					special="NONE";
+					id=175;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Pogorevka";
+					init="nullReturn = [this,""Pogorevka"",""+"",30,60] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={176,177,179,178,180};
+				};
+				class Item1
+				{
+					position[]={4343.147,304.46622,6505.2808};
+					azimut=225;
+					special="NONE";
+					id=177;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={175};
+				};
+				class Item2
+				{
+					position[]={4410.4487,309.41779,6179.3706};
+					azimut=275;
+					special="NONE";
+					id=176;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={175};
+				};
+				class Item3
+				{
+					position[]={4331.8608,304.4469,6491.9746};
+					azimut=325;
+					special="NONE";
+					id=179;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={175};
+				};
+				class Item4
+				{
+					position[]={4390.4741,309.37314,6183.3047};
+					azimut=175;
+					special="NONE";
+					id=178;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={175};
+				};
+				class Item5
+				{
+					position[]={4549.7139,288.2897,6430.5967};
+					azimut=55;
+					special="NONE";
+					id=180;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={175};
+				};
+			};
+		};
+		class Item87
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={2327.2561,319.27298,6358.9756};
+					azimut=40;
+					special="NONE";
+					id=181;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Sosnovka";
+					init="nullReturn = [this,""Sosnovka"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={182,183};
+				};
+				class Item1
+				{
+					position[]={2511.4016,310.32617,6450.4375};
+					azimut=90;
+					special="NONE";
+					id=182;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={181};
+				};
+				class Item2
+				{
+					position[]={2509.6968,311.8981,6465.5747};
+					azimut=15;
+					special="NONE";
+					id=183;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={181};
+				};
+			};
+		};
+		class Item88
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1919.2863,261,7434.2109};
+					azimut=340;
+					special="NONE";
+					id=184;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Myshkino";
+					init="nullReturn = [this,""Myshkino"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={185,186};
+				};
+				class Item1
+				{
+					position[]={1876.9056,275.52063,7629.6099};
+					azimut=220;
+					special="NONE";
+					id=185;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={184};
+				};
+				class Item2
+				{
+					position[]={1896.6808,276.71381,7628.6519};
+					azimut=115;
+					special="NONE";
+					id=186;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={184};
+				};
+			};
+		};
+		class Item89
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={3109.9204,299.08401,7961.6831};
+					azimut=25;
+					special="NONE";
+					id=187;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Pustoshka";
+					init="nullReturn = [this,""Pustoshka"",""+"",30,60] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={188,189,190,191,192};
+				};
+				class Item1
+				{
+					position[]={2992.0989,313.99551,7829.9668};
+					azimut=105;
+					special="NONE";
+					id=189;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={187};
+				};
+				class Item2
+				{
+					position[]={3254.158,299.01114,7965.0952};
+					azimut=30;
+					special="NONE";
+					id=188;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={187};
+				};
+				class Item3
+				{
+					position[]={2986.3271,314.98892,7818.2158};
+					azimut=180;
+					special="NONE";
+					id=190;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={187};
+				};
+				class Item4
+				{
+					position[]={3265.8701,300.47406,7957.8745};
+					azimut=125;
+					special="NONE";
+					id=191;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={187};
+				};
+				class Item5
+				{
+					position[]={3254.1226,299.08734,7997.3643};
+					azimut=80;
+					special="NONE";
+					id=192;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={187};
+				};
+			};
+		};
+		class Item90
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={6216.4048,301.49957,7806.0073};
+					azimut=30;
+					special="NONE";
+					id=193;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="StarySobor";
+					init="nullReturn = [this,""StarySobor"",""+"",40,80] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={194,195,196,197,198,199,200,201};
+				};
+				class Item1
+				{
+					position[]={5931.6206,307.19247,8006.207};
+					azimut=240;
+					special="NONE";
+					id=195;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={193};
+				};
+				class Item2
+				{
+					position[]={6356.6357,288.298,7549.772};
+					azimut=215;
+					special="NONE";
+					id=194;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={193};
+				};
+				class Item3
+				{
+					position[]={6371.8364,287.52859,7540.8555};
+					azimut=125;
+					special="NONE";
+					id=196;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={193};
+				};
+				class Item4
+				{
+					position[]={5924.144,307.51953,8019.8306};
+					azimut=330;
+					special="NONE";
+					id=197;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={193};
+				};
+				class Item5
+				{
+					position[]={5947.3403,312.27435,7607.2856};
+					azimut=225;
+					special="NONE";
+					id=198;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={193};
+				};
+				class Item6
+				{
+					position[]={5871.7324,321.84818,7792.2954};
+					azimut=200;
+					special="NONE";
+					id=199;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={193};
+				};
+				class Item7
+				{
+					position[]={6380.9741,318.32343,7884.397};
+					azimut=160;
+					special="NONE";
+					id=200;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={193};
+				};
+				class Item8
+				{
+					position[]={5960.1797,312.22906,7596.1733};
+					azimut=307;
+					special="NONE";
+					id=201;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={193};
+				};
+			};
+		};
+		class Item91
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={3724.3477,311.0358,8987.7119};
+					azimut=225;
+					special="NONE";
+					id=202;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Vybor";
+					init="nullReturn = [this,""Vybor"",""+"",30,60] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={203,204,205,206};
+				};
+				class Item1
+				{
+					position[]={3534.0732,311.63467,9109.6768};
+					azimut=35;
+					special="NONE";
+					id=204;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={202};
+				};
+				class Item2
+				{
+					position[]={3913.7546,310.92743,8830.5625};
+					azimut=200;
+					special="NONE";
+					id=203;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={202};
+				};
+				class Item3
+				{
+					position[]={3574.4058,314.22849,9135.8945};
+					azimut=265;
+					special="NONE";
+					id=205;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={202};
+				};
+				class Item4
+				{
+					position[]={3902.5693,310.94672,8813.834};
+					azimut=110;
+					special="NONE";
+					id=206;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={202};
+				};
+			};
+		};
+		class Item92
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={2787.1118,273.89658,9831.5303};
+					azimut=290;
+					special="NONE";
+					id=207;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Lopatino";
+					init="nullReturn = [this,""Lopatino"",""+"",40,80] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={208,209,210,211,212,213,214};
+				};
+				class Item1
+				{
+					position[]={2619.9822,276.25647,10130.815};
+					azimut=50;
+					special="NONE";
+					id=209;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={207};
+				};
+				class Item2
+				{
+					position[]={2984.0081,286.99863,9979.7432};
+					azimut=170;
+					special="NONE";
+					id=208;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={207};
+				};
+				class Item3
+				{
+					position[]={3002.2661,288.72473,9984.8516};
+					azimut=80;
+					special="NONE";
+					id=210;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={207};
+				};
+				class Item4
+				{
+					position[]={2608.9768,276.96228,10142.859};
+					azimut=320;
+					special="NONE";
+					id=211;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={207};
+				};
+				class Item5
+				{
+					position[]={2609.688,262.30859,9849.3467};
+					azimut=230;
+					special="NONE";
+					id=212;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={207};
+				};
+				class Item6
+				{
+					position[]={3002.2979,297.41605,10125.994};
+					azimut=200;
+					special="NONE";
+					id=213;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={207};
+				};
+				class Item7
+				{
+					position[]={2625.2939,263.83005,9861.1387};
+					azimut=130;
+					special="NONE";
+					id=214;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={207};
+				};
+				class Item8
+				{
+					position[]={2861.3479,274.06946,9870.4189};
+					azimut=125;
+					special="NONE";
+					id=311;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+				};
+			};
+		};
+		class Item93
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={5411.4941,330.56357,8614.375};
+					azimut=305;
+					special="NONE";
+					id=215;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Kabanino";
+					init="nullReturn = [this,""Kabanino"",""+"",30,60] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={216,217,218,219,220};
+				};
+				class Item1
+				{
+					position[]={5185.7188,345.1636,8614.6758};
+					azimut=145;
+					special="NONE";
+					id=217;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={215};
+				};
+				class Item2
+				{
+					position[]={5447.8789,333.24374,8451.5928};
+					azimut=70;
+					special="NONE";
+					id=216;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={215};
+				};
+				class Item3
+				{
+					position[]={5164.9844,346.00931,8618.5205};
+					azimut=285;
+					special="NONE";
+					id=218;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={215};
+				};
+				class Item4
+				{
+					position[]={5461.9644,332.57788,8470.3281};
+					azimut=160;
+					special="NONE";
+					id=219;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={215};
+				};
+				class Item5
+				{
+					position[]={5456.5801,330.47137,8764.3408};
+					azimut=215;
+					special="NONE";
+					id=220;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={215};
+				};
+			};
+		};
+		class Item94
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={4976.8892,181.10001,12578.234};
+					azimut=170;
+					special="NONE";
+					id=221;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Petrovka";
+					init="nullReturn = [this,""Petrovka"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={222,223};
+				};
+				class Item1
+				{
+					position[]={5039.9644,181.98834,12463.721};
+					azimut=25;
+					special="NONE";
+					id=222;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={221};
+				};
+				class Item2
+				{
+					position[]={5038.4551,182,12487.247};
+					azimut=110;
+					special="NONE";
+					id=223;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={221};
+				};
+			};
+		};
+		class Item95
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=8;
+				class Item0
+				{
+					position[]={6048.6978,266.99292,10400.9};
+					azimut=210;
+					special="NONE";
+					id=224;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Grishino";
+					init="nullReturn = [this,""Grishino"",""+"",40,80] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={225,226,227,228,229,230,231};
+				};
+				class Item1
+				{
+					position[]={6098.6567,259.34735,10590.793};
+					azimut=120;
+					special="NONE";
+					id=226;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={224};
+				};
+				class Item2
+				{
+					position[]={6316.5376,284.49942,10397.315};
+					azimut=210;
+					special="NONE";
+					id=225;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={224};
+				};
+				class Item3
+				{
+					position[]={6315.1733,285.07974,10378.765};
+					azimut=120;
+					special="NONE";
+					id=227;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={224};
+				};
+				class Item4
+				{
+					position[]={6111.624,259.37439,10580.572};
+					azimut=35;
+					special="NONE";
+					id=228;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={224};
+				};
+				class Item5
+				{
+					position[]={6165.5288,277.60251,10280.918};
+					azimut=200;
+					special="NONE";
+					id=229;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={224};
+				};
+				class Item6
+				{
+					position[]={5914.3462,269.21625,10261.856};
+					azimut=130;
+					special="NONE";
+					id=230;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={224};
+				};
+				class Item7
+				{
+					position[]={5922.5576,270.59335,10240.594};
+					azimut=215;
+					special="NONE";
+					id=231;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={224};
+				};
+			};
+		};
+		class Item96
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={8640.5205,186.25255,11943.868};
+					azimut=155;
+					special="NONE";
+					id=232;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Gvozdno";
+					init="nullReturn = [this,""Gvozdno"",""+"",25,50] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={233,234,235,236};
+				};
+				class Item1
+				{
+					position[]={8520.3203,169.31032,12023.123};
+					azimut=38;
+					special="NONE";
+					id=234;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={232};
+				};
+				class Item2
+				{
+					position[]={8708.5254,202.05739,11777.832};
+					azimut=55;
+					special="NONE";
+					id=233;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={232};
+				};
+				class Item3
+				{
+					position[]={8532.9297,169.55627,12035.262};
+					azimut=295;
+					special="NONE";
+					id=235;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={232};
+				};
+				class Item4
+				{
+					position[]={8730.5322,202.86525,11777.558};
+					azimut=160;
+					special="NONE";
+					id=236;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={232};
+				};
+			};
+		};
+		class Item97
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={11267.107,79.619606,6595.4434};
+					azimut=340;
+					special="NONE";
+					id=237;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Dolina";
+					init="nullReturn = [this,""Dolina"",""+"",25,50] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={238,239,241,240};
+				};
+				class Item1
+				{
+					position[]={11096.343,87.81723,6637.0347};
+					azimut=7;
+					special="NONE";
+					id=239;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={237};
+				};
+				class Item2
+				{
+					position[]={11430.998,67.207993,6585.3965};
+					azimut=160;
+					special="NONE";
+					id=238;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={237};
+				};
+				class Item3
+				{
+					position[]={11102.556,94.61953,6677.0371};
+					azimut=245;
+					special="NONE";
+					id=241;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={237};
+				};
+				class Item4
+				{
+					position[]={11423.154,67.127823,6564.293};
+					azimut=70;
+					special="NONE";
+					id=240;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={237};
+				};
+			};
+		};
+		class Item98
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={13414.596,11.28233,6152.1582};
+					azimut=270;
+					special="NONE";
+					id=242;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Solnichniy";
+					init="nullReturn = [this,""Solnichniy"",""+"",40,80] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={243,244,245,246,247,248};
+				};
+				class Item1
+				{
+					position[]={13475.946,6.0520597,6361.4072};
+					azimut=270;
+					special="NONE";
+					id=244;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={242};
+				};
+				class Item2
+				{
+					position[]={13446.486,5.8743062,6055.729};
+					azimut=278;
+					special="NONE";
+					id=243;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={242};
+				};
+				class Item3
+				{
+					position[]={13279.928,5.9771266,6234.3979};
+					azimut=280;
+					special="NONE";
+					id=245;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={242};
+				};
+				class Item4
+				{
+					position[]={13194.926,25.570562,6395};
+					azimut=90;
+					special="NONE";
+					id=246;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={242};
+				};
+				class Item5
+				{
+					position[]={13451.335,6.1890526,6364.0737};
+					special="NONE";
+					id=247;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={242};
+				};
+				class Item6
+				{
+					position[]={13445.656,5.8359761,6041.4937};
+					azimut=190;
+					special="NONE";
+					id=248;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={242};
+				};
+			};
+		};
+		class Item99
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={12214.359,177.25577,7270.2095};
+					azimut=340;
+					special="NONE";
+					id=249;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Orlovets";
+					init="nullReturn = [this,""Orlovets"",""+"",20,40] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={250,251,253,252};
+				};
+				class Item1
+				{
+					position[]={11945.167,200.45319,7263.6636};
+					azimut=25;
+					special="NONE";
+					id=251;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={249};
+				};
+				class Item2
+				{
+					position[]={12326.067,162.78215,7359.1152};
+					azimut=125;
+					special="NONE";
+					id=250;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={249};
+				};
+				class Item3
+				{
+					position[]={11929.319,201.68811,7270.1982};
+					azimut=300;
+					special="NONE";
+					id=253;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={249};
+				};
+				class Item4
+				{
+					position[]={12345.053,162.11746,7353.0405};
+					azimut=25;
+					special="NONE";
+					id=252;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={249};
+				};
+			};
+		};
+		class Item100
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={10701.76,211.59546,7986.7793};
+					azimut=298;
+					special="NONE";
+					id=254;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Polana";
+					init="nullReturn = [this,""Polana"",""+"",30,60] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={255,256,257,258,259};
+				};
+				class Item1
+				{
+					position[]={10519.441,188.15875,7799.686};
+					azimut=100;
+					special="NONE";
+					id=256;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={254};
+				};
+				class Item2
+				{
+					position[]={10743.31,216.73717,8106.6016};
+					azimut=310;
+					special="NONE";
+					id=255;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={254};
+				};
+				class Item3
+				{
+					position[]={10740.814,217.76837,8132.5664};
+					azimut=315;
+					special="NONE";
+					id=257;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={254};
+				};
+				class Item4
+				{
+					position[]={10536.323,188.15269,7794.5234};
+					azimut=195;
+					special="NONE";
+					id=258;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={254};
+				};
+				class Item5
+				{
+					position[]={10525.791,227.34068,8059.3125};
+					azimut=125;
+					special="NONE";
+					id=259;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG','GL']];";
+					synchronizations[]={254};
+				};
+			};
+		};
+		class Item101
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={9648.7871,299.52731,8878.4092};
+					azimut=120;
+					special="NONE";
+					id=260;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Gorka";
+					init="nullReturn = [this,""Gorka"",""+"",40,80] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={261,262,263,264,265};
+				};
+				class Item1
+				{
+					position[]={9463.9404,304.02094,8761.5088};
+					azimut=275;
+					special="NONE";
+					id=261;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={260};
+				};
+				class Item2
+				{
+					position[]={9348.2275,319.00653,8836.668};
+					azimut=300;
+					special="NONE";
+					id=262;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={260};
+				};
+				class Item3
+				{
+					position[]={9796.8584,289.9855,8795.1172};
+					azimut=95;
+					special="NONE";
+					id=263;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={260};
+				};
+				class Item4
+				{
+					position[]={9448.1396,303.99799,8760.4395};
+					azimut=185;
+					special="NONE";
+					id=264;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={260};
+				};
+			};
+		};
+		class Item102
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9807.6396,289.86591,8813.1699};
+					azimut=185;
+					special="NONE";
+					id=265;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					leader=1;
+					skill=0.60000002;
+					synchronizations[]={260};
+				};
+			};
+		};
+		class Item103
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={10478.767,114.36238,9838.2842};
+					azimut=235;
+					special="NONE";
+					id=266;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Dubrovka";
+					init="nullReturn = [this,""Dubrovka"",""+"",30,60] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={267,268,269,270};
+				};
+				class Item1
+				{
+					position[]={10252.373,140.52896,9848.0293};
+					azimut=125;
+					special="NONE";
+					id=268;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={266};
+				};
+				class Item2
+				{
+					position[]={10463.775,113.93854,10034.307};
+					azimut=90;
+					special="NONE";
+					id=267;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={266};
+				};
+				class Item3
+				{
+					position[]={10486.923,113.24154,10033.84};
+					special="NONE";
+					id=269;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={266};
+				};
+				class Item4
+				{
+					position[]={10265.406,139.64648,9825.1084};
+					azimut=215;
+					special="NONE";
+					id=270;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={266};
+				};
+			};
+		};
+		class Item104
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={12852.108,5.452805,8104.9668};
+					azimut=170;
+					special="NONE";
+					id=271;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Nizhnoye";
+					init="nullReturn = [this,""Nizhnoye"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={272,273,271};
+				};
+				class Item1
+				{
+					position[]={12786.465,5.8828573,8251.0957};
+					azimut=60;
+					special="NONE";
+					id=272;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={271};
+				};
+				class Item2
+				{
+					position[]={12795.947,5.817606,8271.2295};
+					azimut=330;
+					special="NONE";
+					id=273;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={271};
+				};
+			};
+		};
+		class Item105
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=8;
+				class Item0
+				{
+					position[]={12005.264,59.268032,9066.6641};
+					azimut=40;
+					special="NONE";
+					id=274;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Berezino";
+					init="nullReturn = [this,""Berezino"",""+"",60,120] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={278,276,277,275,280,279,281};
+				};
+				class Item1
+				{
+					position[]={11777.332,68.156929,9106.1758};
+					azimut=55;
+					special="NONE";
+					id=276;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={274};
+				};
+				class Item2
+				{
+					position[]={12151.409,52.942917,9055.8369};
+					azimut=205;
+					special="NONE";
+					id=275;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={274};
+				};
+				class Item3
+				{
+					position[]={12165.946,50.053257,9047.6328};
+					azimut=125;
+					special="NONE";
+					id=277;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={274};
+				};
+				class Item4
+				{
+					position[]={11834.849,76.044586,8938.4648};
+					azimut=35;
+					special="NONE";
+					id=278;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={274};
+				};
+				class Item5
+				{
+					position[]={12056.866,42.401108,9269.54};
+					azimut=305;
+					special="NONE";
+					id=279;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={274};
+				};
+				class Item6
+				{
+					position[]={12067.123,41.336933,9282.9658};
+					azimut=35;
+					special="NONE";
+					id=280;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={274};
+				};
+				class Item7
+				{
+					position[]={11762.161,68.746246,9119.9033};
+					azimut=325;
+					special="NONE";
+					id=281;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={274};
+				};
+			};
+		};
+		class Item106
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10981.396,224.38475,12368.183};
+					azimut=285;
+					special="NONE";
+					id=282;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Krasnostav";
+					init="nullReturn = [this,""Krasnostav"",""+"",60,120] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={284,283,285,287,286,288};
+				};
+				class Item1
+				{
+					position[]={11219.365,191.16513,12175.746};
+					azimut=303;
+					special="NONE";
+					id=283;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={282};
+				};
+				class Item2
+				{
+					position[]={11188.982,194.0442,12169.204};
+					azimut=210;
+					special="NONE";
+					id=284;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={282};
+				};
+				class Item3
+				{
+					position[]={11101.153,230.31712,12589.17};
+					azimut=180;
+					special="NONE";
+					id=285;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['AT','AA']];";
+					synchronizations[]={282};
+				};
+				class Item4
+				{
+					position[]={10742.075,251.68784,12417.179};
+					azimut=348;
+					special="NONE";
+					id=286;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={282};
+				};
+				class Item5
+				{
+					position[]={10738.15,251.83688,12434.399};
+					azimut=260;
+					special="NONE";
+					id=287;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={282};
+				};
+				class Item6
+				{
+					position[]={11308.273,188.95679,12230.73};
+					azimut=100;
+					special="NONE";
+					id=288;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={282};
+				};
+				class Item7
+				{
+					position[]={11218.244,209.42055,12523.077};
+					azimut=115;
+					special="NONE";
+					id=307;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+				};
+				class Item8
+				{
+					position[]={11228.626,208.52959,12504.155};
+					azimut=20;
+					special="NONE";
+					id=308;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+				};
+			};
+		};
+		class Item107
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={12370.539,97.747475,10877.84};
+					azimut=210;
+					special="NONE";
+					id=289;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Khelm";
+					init="nullReturn = [this,""Khelm"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={290,291};
+				};
+				class Item1
+				{
+					position[]={12313.11,94.748535,10738.148};
+					azimut=275;
+					special="NONE";
+					id=290;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={289};
+				};
+				class Item2
+				{
+					position[]={12294.72,94.037628,10728.104};
+					azimut=195;
+					special="NONE";
+					id=291;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={289};
+				};
+			};
+		};
+		class Item108
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={13386.084,94,12857.729};
+					azimut=120;
+					special="NONE";
+					id=292;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Olsha";
+					init="nullReturn = [this,""Olsha"",""+"",15,30] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={293,294};
+				};
+				class Item1
+				{
+					position[]={13317.745,110.07454,12747.974};
+					azimut=105;
+					special="NONE";
+					id=293;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={292};
+				};
+				class Item2
+				{
+					position[]={13331.057,109.8382,12731.967};
+					azimut=195;
+					special="NONE";
+					id=294;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={292};
+				};
+			};
+		};
+		class Item109
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={1832.9244,7.9946556,2261.8064};
+					azimut=270;
+					special="NONE";
+					id=40;
+					side="LOGIC";
+					vehicle="LocationLogicDepot";
+					leader=1;
+					skill=0.60000002;
+					text="Kamenka";
+					init="nullReturn = [this,""Kamenka"",""+"",30,60] execVM ""Common\Init\Init_Town.sqf"";";
+					synchronizations[]={41,42,75,74};
+				};
+				class Item1
+				{
+					position[]={1681.6072,6.4000001,2223.2883};
+					azimut=200;
+					special="NONE";
+					id=42;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={40};
+				};
+				class Item2
+				{
+					position[]={1998.2336,5.7436676,2265.3137};
+					azimut=175;
+					special="NONE";
+					id=41;
+					side="LOGIC";
+					vehicle="LocationLogicCamp";
+					skill=0.60000002;
+					synchronizations[]={40};
+				};
+				class Item3
+				{
+					position[]={1664.0492,6.4000001,2229.7402};
+					azimut=290;
+					special="NONE";
+					id=74;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MG']];";
+					synchronizations[]={40};
+				};
+				class Item4
+				{
+					position[]={2043.677,5.5141101,2271.6008};
+					azimut=85;
+					special="NONE";
+					id=75;
+					side="LOGIC";
+					vehicle="Logic";
+					skill=0.60000002;
+					init="this setVariable ['wfbe_defense_kind', ['MGNest']];";
+					synchronizations[]={40};
+				};
+			};
+		};
+		class Item110
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8595.6504,335.38129,8107.5439};
+					id=296;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item111
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4279.8848,339.82565,9795.1377};
+					azimut=180;
+					id=297;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item112
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7291.0845,6,3443.7483};
+					azimut=180;
+					id=298;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item113
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8957.7832,382.39047,9193.4912};
+					id=299;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item114
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5015.5664,344.01373,9333.6436};
+					azimut=180;
+					id=300;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item115
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={12340.953,173.68973,6837.6602};
+					id=301;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item116
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4331.2632,309.75702,7924.2764};
+					id=302;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item117
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6301.6929,336.61804,8323.4561};
+					id=303;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item118
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5256.4346,327.64017,7632.8325};
+					id=304;
+					side="LOGIC";
+					vehicle="LocationLogicStart";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=2;
+		class Item0
+		{
+			position[]={42.718056,88.287216,1981.8948};
+			azimut=170;
+			id=16;
+			side="EMPTY";
+			vehicle="LAV25_HQ";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="WestMHQ";
+		};
+		class Item1
+		{
+			position[]={131.67694,97.30748,2393.4822};
+			azimut=350;
+			id=17;
+			side="EMPTY";
+			vehicle="BTR90_HQ";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="EastMHQ";
+		};
+	};
+	class Markers
+	{
+		items=2;
+		class Item0
+		{
+			position[]={114.73975,337.43341,14065.94};
+			name="WestTempRespawnMarker";
+			type="Empty";
+		};
+		class Item1
+		{
+			position[]={1456.605,378.26056,14980.354};
+			name="EastTempRespawnMarker";
+			type="Empty";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=13267190;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=10462969;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=12603217;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};

@@ -1,0 +1,177 @@
+/*%FSM<COMPILE "D:\ArmA2\FSM Editor Personal Edition\scriptedFSM.cfg, overcast">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Init",0,250,-64.063538,-295.568512,25.936447,-245.568604,0.000000,"Init"};
+item1[] = {"Update_Weather",2,4346,-66.836029,-56.267544,23.163887,-6.267582,0.000000,"Update Weather"};
+item2[] = {"End",1,250,-218.006683,15.304325,-128.006653,65.304314,0.000000,"End"};
+item3[] = {"Loop",4,218,65.605347,-56.267605,155.605377,-6.267574,0.000000,"Loop"};
+item4[] = {"Gameover",4,218,-216.668854,-56.267559,-126.668869,-6.267574,0.000000,"Gameover"};
+item5[] = {"Wait_for_Init",4,218,65.886307,-194.314407,155.886276,-144.314407,0.000000,"Wait for Init"};
+item6[] = {"Advanced_Init",2,250,-63.879562,-194.314392,26.121157,-144.314392,0.000000,"Advanced Init"};
+item7[] = {"_",8,218,-34.448154,-230.434799,-2.642141,-207.859543,0.000000,""};
+item8[] = {"Wait",2,250,192.379745,-194.033447,282.379883,-144.033447,0.000000,"Wait"};
+item9[] = {"Init_Done",4,218,-63.535187,-123.100403,26.464882,-73.100349,0.000000,"Init Done"};
+item10[] = {"",7,210,233.129700,-102.521011,241.129700,-94.521011,0.000000,""};
+link0[] = {0,7};
+link1[] = {1,3};
+link2[] = {1,4};
+link3[] = {3,1};
+link4[] = {4,2};
+link5[] = {5,8};
+link6[] = {6,5};
+link7[] = {6,9};
+link8[] = {7,6};
+link9[] = {8,5};
+link10[] = {8,10};
+link11[] = {9,1};
+link12[] = {10,9};
+globals[] = {0.000000,0,0,0,0,640,480,1,14,6316128,1,-395.307037,395.306915,79.046959,-351.956635,897,514,1};
+window[] = {0,-1,-1,-1,-1,659,25,1285,25,1,915};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "overcast";
+  class States
+  {
+    /*%FSM<STATE "Init">*/
+    class Init
+    {
+      name = "Init";
+      init = /*%FSM<STATEINIT""">*/"_lastOverCast = -1;" \n
+       "_overCast = 0;" \n
+       "_lastUpdate = time;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="Advanced_Init";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Update_Weather">*/
+    class Update_Weather
+    {
+      name = "Update_Weather";
+      init = /*%FSM<STATEINIT""">*/"_overCast = WF_Logic getVariable ""overCast"";" \n
+       "if (_overCast != _lastOverCast) then {" \n
+       "	('WFBE_WEATHERTRANSITION' Call GetNamespace) setOvercast _overCast;" \n
+       "	_lastOverCast = _overCast;" \n
+       "};" \n
+       "_lastUpdate = time;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Gameover">*/
+        class Gameover
+        {
+          priority = 0.000000;
+          to="End";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"gameOver"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Loop">*/
+        class Loop
+        {
+          priority = 0.000000;
+          to="Update_Weather";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time - _lastUpdate > 5 && !gameOver"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "End">*/
+    class End
+    {
+      name = "End";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Advanced_Init">*/
+    class Advanced_Init
+    {
+      name = "Advanced_Init";
+      init = /*%FSM<STATEINIT""">*/"_overCast = WF_Logic getVariable ""overCast"""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Init_Done">*/
+        class Init_Done
+        {
+          priority = 0.000000;
+          to="Update_Weather";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!isNil ""_overCast"""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_overCast = WF_Logic getVariable ""overCast"";" \n
+           "if (time > 10) then {0 setOvercast _overCast;_lastOverCast = _overCast};"/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Wait_for_Init">*/
+        class Wait_for_Init
+        {
+          priority = 0.000000;
+          to="Wait";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"isNil ""_overCast"""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_overCast = WF_Logic getVariable ""overCast"""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Wait">*/
+    class Wait
+    {
+      name = "Wait";
+      init = /*%FSM<STATEINIT""">*/"_overCast = WF_Logic getVariable ""overCast"";"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Init_Done">*/
+        class Init_Done
+        {
+          priority = 0.000000;
+          to="Update_Weather";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!isNil ""_overCast"""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_overCast = WF_Logic getVariable ""overCast"";" \n
+           "if (time > 10) then {0 setOvercast _overCast;_lastOverCast = _overCast};"/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Wait_for_Init">*/
+        class Wait_for_Init
+        {
+          priority = 0.000000;
+          to="Wait";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"isNil ""_overCast"""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_overCast = WF_Logic getVariable ""overCast"""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="Init";
+  finalStates[] =
+  {
+    "End",
+  };
+};
+/*%FSM</COMPILE>*/
